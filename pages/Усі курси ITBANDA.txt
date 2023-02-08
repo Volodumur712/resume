@@ -1,0 +1,164 @@
+Основи програмування до курсу програміст-фрілансер
+Уроки
+Організаційний
+2 Тестування та база знань
+<iframe width="952" height="713" src="https://www.youtube.com/embed/X7MCiAin47M" title="Воркшоп: тестирование. Организационный урок" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://drive.google.com/file/d/1uCeCNoTerDnSpy3XqHP5YHnh5JCl_e9B/view
+<iframe width="952" height="713" src="https://www.youtube.com/embed/2YNoG00RM8w" title="Воркшоп: тестирование.  План и переменные" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/5A2ng2f33r0" title="Воркшоп: тестирование. Document и консоль" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/XYyRE5s-sBM" title="Воркшоп: тестирование. Работа со свойствами элементов" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/1RmD6sUxwiQ" title="Воркшоп: тестирование.  Условия и логические операторы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/CFx6-PYD6ZI" title="Воркшоп: тестирование.  События и ДЗ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+3 Створюємо гру “Вбивча Рулетка”
+<iframe width="952" height="535" src="https://www.youtube.com/embed/78m1mMiq_RU" title="Программирование игры за 1 час. Урок №1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/QqD_RltqqD0" title="Программирование игры за 1 час. Урок №2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/w4IglrS-zNo" title="Программирование игры за 1 час. Урок №3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/02KA1rZwAQI" title="Программирование игры за 1 час. Урок №4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/GkphQkUCF8E" title="Программирование игры за 1 час. Урок №5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/x6-4dar8F2w" title="Программирование игры за 1 час. Урок №6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/Mf_9ouaFA14" title="Программирование игры за 1 час. Урок №7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/DMhhU5Mdtis" title="Программирование игры за 1 час. Урок №8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/FTNEao6mAnA" title="Программирование игры за 1 час. Урок №9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/oSmkRbQHE-8" title="Программирование игры за 1 час. Урок №10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/CSJT9onrmjU" title="Программирование игры за 1 час. Урок №11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/MqCPMIQPMTs" title="Программирование игры за 1 час. Урок №12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+4 Створюємо гру Пари
+<iframe width="952" height="535" src="https://www.youtube.com/embed/I1ZcdkrcAQg" title="1. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://drive.google.com/file/d/1Ji4aN2RpxO70fPcT8mrd5I3w_NhCkPZN/view
+<iframe width="952" height="535" src="https://www.youtube.com/embed/_Cdj1lqL9mI" title="2. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/xK91sNuSLRg" title="3. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/tWG41SVlSog" title="4. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/LE7cXMlwdx8" title="5. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/nyeZ_QYj2kg" title="6. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/coN5JEdEY28" title="7. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/zg-eX-XOm88" title="8. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="535" src="https://www.youtube.com/embed/dEAdN7rs1Gw" title="9. Создаем игру «Пары»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+5 Змінні, як влаштований браузер, робота з елементами сторінки
+<iframe width="952" height="713" src="https://www.youtube.com/embed/yTdZr41aK7k" title="1й урок: подготовка к обучению" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://drive.google.com/file/d/1FWsuneyHkzYc3g3VRoqiVJY2E8-_PU8G/view
+<iframe width="952" height="713" src="https://www.youtube.com/embed/zo54gFFP_cw" title="2й урок: переменные, устройство браузера, работа с элементами страницы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+6 Введення в події, робота з тегом audio
+<iframe width="952" height="713" src="https://www.youtube.com/embed/ddohAYxetmE" title="3й урок: введение в события, работа с тегом audio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+7 Події, умови, робота з координатами
+<iframe width="952" height="713" src="https://www.youtube.com/embed/XPfiFrSv9Gg" title="4й урок: события, условия, работа с координатами" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+8 Робота з таймерами
+<iframe width="952" height="713" src="https://www.youtube.com/embed/CBz9lcJ7r6g" title="5й урок: работа с таймерами" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+9 Робота з елементами, створення, відображення та видалення
+<iframe width="952" height="713" src="https://www.youtube.com/embed/3kHePCjl7K8" title="6й урок: работа с элементами, создание, отображение и удаление" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+10 Цикл while, робота з координатами
+<iframe width="952" height="713" src="https://www.youtube.com/embed/7qwGjvZf5cs" title="7й урок: цикл while, работа с координатами" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+11 Завершуємо створення гри
+<iframe width="952" height="713" src="https://www.youtube.com/embed/9dv85wdWzxI" title="8й урок: завершаем создание игры" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Експрес курс "Програміст фрілансер" V.2.0
+Урок №2: "Модуль Front-end. Урок 1 — HTML&CSS, необхідна база"
+<iframe width="952" height="713" src="https://www.youtube.com/embed/i_YKgDV6nsg" title="Модуль Front-end. Урок 1 - Что будем делать" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://drive.google.com/file/d/1LkYFBH3jXfqdBe_Rc7LkX1pQHNoYhIFk/view
+<iframe width="952" height="713" src="https://www.youtube.com/embed/Qie51OHstes" title="Модуль Front-end. Урок 1 - Структура HTML документа" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://habr.com/ru/company/macloud/blog/555082/
+<iframe width="952" height="713" src="https://www.youtube.com/embed/t9s8qbLLGCc" title="Модуль Front-end. Урок 1 - HTML теги" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/FXwwDiI6M9c" title="Модуль Front-end. Урок 1 - HTML теги, добавляем картинку и форму" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/9b1uzn6dvww" title="Модуль Front-end. Урок 1 - Подключаем стили" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/oK_KQUhaNNU" title="Модуль Front-end. Урок 1 - Блочные и строчные элементы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/bfS5ZKa5VfI" title="Модуль Front-end. Урок 1 - CSS селектор класс" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://mailfit.com/blog/goryachie-klavishi-v-figma
+<iframe width="952" height="713" src="https://www.youtube.com/embed/50EedRAbHMY" title="Модуль Front-end. Урок 1 - Позиционирование элементов флоатами" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Positioning
+<iframe width="952" height="713" src="https://www.youtube.com/embed/4TqKH0hkApE" title="Модуль Front-end. Урок 1 - Выравниваем блоки в шапке" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+3 Модуль Front-end. Урок 2 - Верстка сайтів, базові принципи
+<iframe width="952" height="713" src="https://www.youtube.com/embed/hMtYKrtIDpA" title="Модуль Front-end. Урок 2 - Делаем навигацию, несколько лайфхаков в верстке" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/7vEFHGl5Tc8" title="Модуль Front-end. Урок 2 - Делаем блок с картинкой на бекграунде" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/COpzARWbC1Y" title="Модуль Front-end. Урок 2 - Позиционируем блок шапки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/UzerXXnDQXQ" title="Модуль Front-end. Урок 2 - Верстаем блок с цитатой" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/SHts4RF5kZE" title="Модуль Front-end. Урок 2 - Верстаем блок about us" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+4 Модуль Front-end. Урок 3 - Адаптивна верстка
+<iframe width="952" height="713" src="https://www.youtube.com/embed/F5pyL-QgY-Y" title="Модуль Front-end. Урок 3 - Адаптивная верстка" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/QN6Pf0obALI" title="Модуль Front-end. Урок 3 - Поиск и устранения багов в адаптиве" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/QOj0TzRC4bQ" title="Модуль Front-end. Урок 3 - Адаптивная навигация и ДЗ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+5 Модуль Front-end. Урок 4 - JS та jQuery необхідна база
+<iframe width="952" height="713" src="https://www.youtube.com/embed/-TOQMrI8CBU" title="Модуль Front-end. Урок 4 - Стилизация слайдера" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/OtG4PDboycM" title="Модуль Front-end. Урок 4 - Слайдер на чистом JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/eBMgunPQtDY" title="Модуль Front-end. Урок 4 - Реализация слайдера на jQuery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://habr.com/ru/post/38208/
+https://oscarotero.com/jquery/
+https://msiter.ru/tutorials/jquery/jquery_get_started
+6 Модуль Front-end. Урок 5 - jQuery робота з плагінами та фріланс запити
+<iframe width="952" height="713" src="https://www.youtube.com/embed/daaPWROYQLo" title="Модуль Front-end. Урок 5 - Псевдо-элементы before и after" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://developer.mozilla.org/ru/docs/Web/CSS/::before
+https://developer.mozilla.org/ru/docs/Web/CSS/::after
+<iframe width="952" height="713" src="https://www.youtube.com/embed/iLFZ7wxR0i8" title="Модуль Front-end. Урок 5 - Реальные задачи с фриланс" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://nodejs.org/uk/
+https://medium.com/@OldDeveloper/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-sass-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-4bc45b475a59
+<iframe width="952" height="713" src="https://www.youtube.com/embed/7wYXIoq0DgA" title="Модуль Front-end. Урок 5 - Инструменты для работы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+http://www.webmasters.by/articles/html-coding/2858-less.html
+https://gulpjs.com/docs/en/getting-started/quick-start/
+<iframe width="952" height="713" src="https://www.youtube.com/embed/DyfO02AGoj0" title="Модуль Front-end. Урок 5 - Gulp и Sass" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.npmjs.com/package/gulp-sass
+Урок №8: "Фріланс покроковий план виходу на доходи"
+<iframe width="952" height="535" src="https://www.youtube.com/embed/E3d1tBY7fDs" title="Фріланс с чого почати" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+9 Модуль PHP. Урок 1 - Необхідна база. Відмінність back-end від front-end
+<iframe width="952" height="713" src="https://www.youtube.com/embed/wavJlwigJrg" title="1. Создаем чат: структура приложения" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/esuaRg8YMjM" title="Модуль PHP.  Урок 1 - Разница между фронтент и бекенд" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/-0nSH8ReT1Q" title="Модуль PHP.  Урок 1 - Введение в PHP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/HwgOQLVJwJo" title="Модуль PHP.  Урок 1 - Введение в базы данных" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/A8mvPAS76pM" title="Модуль PHP.  Урок 1 - Подключение БД" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/NO5u7LIdmRE" title="Модуль PHP.  Урок 1 - Добавление записей в БД" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/Jl7yF1wnA3w" title="Модуль PHP.  Урок 1 - Разделение блоков сайта на блоки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/7w0EvO1cccc" title="Модуль PHP.  Урок 1 - Добавление записей в базу через форму. GET и POST запросы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/RkUdvGpSnww" title="Модуль PHP.  Урок 1 -   Вывод данных из БД" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/EopZq10WzCE" title="Модуль PHP.  Урок 1 - Удаление записей" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/3_vC7GN-E7g" title="Модуль PHP.  Урок 1 - Редактирование даных" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+10 Модуль PHP. Урок 2 - Бази даних та робота з ними
+<iframe width="952" height="713" src="https://www.youtube.com/embed/AN4G25m1fIc" title="Модуль PHP.  Урок 2 - Boilerplate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://html5boilerplate.com/
+<iframe width="952" height="713" src="https://www.youtube.com/embed/ew4npTIrfqI" title="Модуль PHP.  Урок 2 - Bootstrap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/UwWgA-VaxZ0" title="Модуль PHP.  Урок 2 - Login & Register form" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/xpi_Wn7SQQQ" title="Модуль PHP.  Урок 2 - Регистрация пользователя" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/2TOwPKKUWxs" title="Модуль PHP.  Урок 2 - Авторизация пользователя" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/YeH0yRcxvGw" title="Модуль PHP.  Урок 2 - Выход из аккаунта" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+11 Модуль PHP. Урок 3 - Створення простого блогу, адмін частина
+<iframe width="952" height="713" src="https://www.youtube.com/embed/3gc2pEWpOXA" title="Модуль PHP.  Урок 3 - Розділення адмінісративної частини від користувацької" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/3r3x6FZ_Ajs" title="Модуль PHP.  Урок 3 - Cookie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/IbvhCQwO2F0" title="Модуль PHP.  Урок 3 - Створюємо таблицю для постів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/qR_qqXcu9Cw" title="Модуль PHP.  Урок 3 - Скачуємо стартову тему для адмінки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/r1ZGU5mjNX8" title="Модуль PHP.  Урок 3 - Налаштування bootstrap теми" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/bW74c-diZCQ" title="Модуль PHP.  Урок 3 - Робимо сторінки для постів та користувачів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/V2GgDD3KJ50" title="Модуль PHP.  Урок 3 - Виводимо користувачів в адмінці" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/VTBk6_S9eVc" title="Модуль PHP.  Урок 3 - Розподілення логіки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/Ftf6Vx2cMrA" title="Модуль PHP.  Урок 3 - Редагування та додавання користувачів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+12 Модуль PHP. Урок 4 - Створення простого блогу. Клієнтська частина
+<iframe width="952" height="713" src="https://www.youtube.com/embed/1d-fwbEZ0e4" title="Модуль PHP.  Урок 4 - Виносимо корисні функції в інше місце" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/pZ3Yc849O2Q" title="Модуль PHP.  Урок 4 - Що таке ajax?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/VwKjm4SvUnM" title="Модуль PHP.  Урок 4 - Робимо AJAX запити на сервер" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/gWtOtCyPnBE" title="Модуль PHP.  Урок 4 - Ajax оновлення даних на сторінці" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/5SHxuG8i3Bw" title="Модуль PHP.  Урок 4 - Завантаження та збереження файлів на сервері" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/m3sszAzy0c0" title="Модуль PHP.  Урок 4 - Збереження файлу в базі даних" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+13 Модуль PHP. Урок 5 - базова безпека, публікація проекту на сервері, правила для оновлень ресурсів
+<iframe width="952" height="713" src="https://www.youtube.com/embed/WKVhzFUN9dU" title="1. Створення проекту з нуля" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://drive.google.com/file/d/1Qs0dhdth-GFLNFRHz-lunLtT_0M6G13N/view
+<iframe width="952" height="713" src="https://www.youtube.com/embed/thO-hkaZRPw" title="2. Обовʼязкові кроки для успішного проекту" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://app.diagrams.net/
+<iframe width="952" height="713" src="https://www.youtube.com/embed/RZj20ax2lgg" title="3. Ріжемо тему для зручної орієнтації в ній" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/leHmAoy4jnc" title="4. Робимо навігацію по сторінках" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/sIiTTCLWB1Q" title="5. Заповнюємо базу даних тестовими даними" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/uKsEPoYh07k" title="6. Робимо вивод даних з бази даних" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/mHQdjReAxx4" title="7. Робимо авторизацію користувача" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/X6fTgvyFKJ0" title="8. Підготовка до розробки аякс запитів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/QPWiscpkCmg" title="9. Робимо лайк у постів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/R9fWz4Ehb6s" title="10. Тестування та шифрування паролів" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="713" src="https://www.youtube.com/embed/SvGl6Ul6-aU" title="11. Розвертання проекту на сервері" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
