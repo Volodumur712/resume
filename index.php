@@ -37,22 +37,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         break;
         }
       }
-      require($_SERVER['DOCUMENT_ROOT'] . "/pages/$pagess.php"); 
+      require($_SERVER['DOCUMENT_ROOT'] . "/pages-admin/$pagess.php"); 
        // обовязково подвійні лапки
       } else{
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/home.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/about.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/scill.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/resume.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/portfolio.php');
-   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/adminka.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/home.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/about.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/scill.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/resume.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/portfolio.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-admin/adminka.php');
 
    /*require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/git.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/htmcss.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/ph_p.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/wordpres.php');*/
-   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/testimonials.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/contact.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-admin/testimonials.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/contact.php');
   }
   ?>
 
