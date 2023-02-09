@@ -1,4 +1,8 @@
 
+<?php
+require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
+?>
+
 <body>
 <!-- ======= Mobile nav toggle button ======= -->
 <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
@@ -8,7 +12,29 @@
   <nav id="navbar" class="navbar nav-menu">
   <ul>
   <?php if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
-        <!-- <li <?php //if(!isset($_GET['p']) || $_GET['p'] == 'home'): ?> <?php// endif; ?> ><a href="/?p=home-adm.php" class="active"><i class="bx bx-home"></i> <span>Home</span></a></li> -->
+        <li><?php
+               if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
+                   $sql = 'SELECT * FROM userku WHERE id=' . $_SESSION["user_id"];
+                   //var_dump($sql);
+                   $result = mysqli_query($conn, $sql);
+                   $user = $result->fetch_assoc();
+
+                   if($user['role'] != "admin") {  ?>
+                    print("<script language=javascript>
+                    window.alert('You not admin');
+                    window.location = "../login.php";
+                    </script>");
+                    /* header("Location: ../login.php"); */
+                    <?php }  
+            ?>
+              <h1 class="text-danger"> <?php echo $user['u_name']; ?>  </h1>
+              <?php
+               } else {
+              ?>
+              <?php
+              }   
+              ?>
+        </li>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'jsbasics'): ?> <?php endif; ?> ><a href="/?p=jsbasics.php"><i class="bx bx-shield-quarter"></i><span>Js basics</span></a></li>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'htmcss'): ?> <?php endif; ?> ><a href="/?p=htmcss.php"><i class="bx bx-file-blank"></i> <span>HTML</span></a></li>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'fril'): ?> <?php endif; ?> ><a href="/?p=fril.php"><i class='bx bx-euro'></i><span>Frilans</span></a></li>

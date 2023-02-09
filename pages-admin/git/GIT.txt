@@ -1,0 +1,64 @@
+git init
+
+створити .gitignore і додати туди потрібні файли
+git add .
+
+git status 
+
+git commit -m "one"
+
+створити репозиторій
+три останні рядки для злиття
+
+git branch -M main
+
+git branch
+
+git remote add origin git@github.com:Volodumur712/first-php.vova.git
+           			  github.com/Volodumur712/kom-work.git
+git push -u origin main
+
+щоб забрати зміни з сайту git pull
+
+
+git clone https://github.com/Volodumur712/kom-work.git
+git branch -M vasja
+
+
+послідовність дії по git
+загружаєш собі проект командою
+git clone https://github.com/Volodumur712/kom-work.git
+
+створити нову гілку командою з прикладів
+git branch -M vasja
+git branch -M katia
+git branch -M vova
+замість імен можна будь що писати
+
+для перевірки на якій ти зараз гілці команда
+git branch
+термінал покаже в кольорі поточну гілку
+
+внести зміни, тобто написати частину потрібного коду
+щоб занести (додати) зміни в git команда
+git add .
+потім додати комміт командою
+git commit -m "22"
+в лапках замість 22 написати свій коміт, незабути закрити лапки
+потім відправити на github командою 
+git push -u origin і вказати branch
+приклади:
+git push -u origin vasja
+git push -u origin katia
+git push -u origin vova
+
+написати в групу, щоб я на сайті обєднав зміни 
+
+
+ще раз коротко
+для додавання змін три команди
+git add .
+git commit -m "22"
+git push -u origin і вказати branch
+
+на сайті обєднати зміни

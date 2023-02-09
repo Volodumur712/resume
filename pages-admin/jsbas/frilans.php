@@ -57,8 +57,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         </div>
     </div>
 
-
-
+    
 
 <div class="text-center m-4 p-3 border border-primary rounded-pill border-5">
     <h4>Урок </h4>

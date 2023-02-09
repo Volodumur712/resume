@@ -1,8 +1,18 @@
 
 <?php
+require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
 // старт сесії 
 session_start();
+
+// старт сесії 
+  /*if (!isset($_SESSION)) 
+    {
+      session_start();
+    }
+*/
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">

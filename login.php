@@ -34,7 +34,9 @@ if(!empty($_POST)) {
         header("Location: /");
         
     } else {
-     echo 'Invalid password.';
+     echo '<h1>Invalid login or password.</h1>
+     </br>
+     <h3>Please try again</h3>';
    }
 }
 ?>
