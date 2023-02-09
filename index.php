@@ -7,13 +7,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 
   <?php
       if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
-       $pagess = 'home-adm';
+       $pagess = 'jsbasics';
       if(isset($_GET['p'])) {
         
       switch ($_GET['p']) {
-        case 'home-adm.php':
+        /*case 'home-adm.php':
         $pagess = 'home-adm';
-        break;
+        break;*/
         case 'git.php':
         $pagess = 'git';
         break;

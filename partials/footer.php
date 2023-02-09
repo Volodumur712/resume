@@ -2,8 +2,12 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
+    <?php
+      if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
+      <?php } else { ?>
       <h3>Volodymyr Slutsenko</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <?php } ?>
       <div class="social-links">
       <?php
       if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
@@ -24,16 +28,24 @@
       
       </div>
       <div class="copyright">
-        <p> Copyright &copy;<script>
-        // document.write(new Date().getMonth()),
-        document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="bi bi-heart-fill" aria-hidden="true"></i>
-         by <a href="https://app.netlify.com/teams/citrusdolar/sites" target="_blank">Slutsenko Volodymyr</a></p>
-         </br>
-                  <p><a href="../login.php">Admin panel</a></p>
+         <?php
+            if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
+                  <a href="/logout.php/">Logout</a>
+                  <?php } else { ?>
+                    <p> Copyright &copy;<script>
+                      // document.write(new Date().getMonth()),
+                      document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="bi bi-heart-fill" aria-hidden="true"></i>
+                      by <a href="https://app.netlify.com/teams/citrusdolar/sites" target="_blank">Slutsenko Volodymyr</a></p>
+                      </br>
+                    <p><a href="../login.php">Admin panel</a></p>
+              <?php } ?>                  
       </div>
       <div class="credits">
       
       </div>
+      <?php
+      if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
+      <?php } else { ?>
       <div class="d-flex">
             <div class="col-md-5 p-2">
 	                <span class="icon icon-map-marker"></span><span class="text"><a href="https://www.google.com/maps/place/,
@@ -48,6 +60,7 @@
                                                                                  <a href="mailto:citrus1989@gmail.com" target="_blank&quot;">citrus1989@gmail.com</a>
                                                                                  </div>
 	    </div>
+      <?php } ?>
     </div>
   </footer>
   <!-- End Footer -->

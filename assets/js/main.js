@@ -1,25 +1,43 @@
 
-//alert('ffff');
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+/*
+window.addEventListener("DOMContentLoaded",() => {
+	const btn = document.querySelector("button");
+	var doneTimeout = null,
+		resetTimeout = null;
 
-// function calculateAge(date) 
-// {
-//   const now = new Date();
-//   const diff = Math.abs(now - date );
-//   const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
-//   return age
-// }
+	if (btn) {
+		btn.addEventListener("click",function() {
+			const runClass = "btn--running";
+			const doneClass = "btn--done";
+			// `.btn--running .btn__progress-fill` `stroke-dashoffset` duration in ms
+			const submitDuration = 2000;
+			const resetDuration = 1500;
 
-// var picker = new Pikaday({ 
-//   field: document.getElementById('birth_date') ,
-//   yearRange:[1900,2020],
-//   onSelect: function(date) {
-//   let age = calculateAge(date);
-//   document.getElementById('age').innerHTML = "age: "+age ;
-//   }                        
-// });
+			// fake the submission
+			this.disabled = true;
+			this.classList.add(runClass);
 
+			clearTimeout(doneTimeout);
+			clearTimeout(resetTimeout);
 
+			doneTimeout = setTimeout(() => {
+				this.classList.remove(runClass);
+				this.classList.add(doneClass);
+				
+				// reset the button
+				resetTimeout = setTimeout(() => {
+					this.disabled = false;
+					this.classList.remove(doneClass);
+				}, resetDuration);
 
+			}, 600 + submitDuration);
+		});
+	}
+});
+*/
 
 (function() {
   "use strict";
