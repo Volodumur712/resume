@@ -29,9 +29,10 @@
                 <p>Implemented using PHP</p>
                 <div class="portfolio-links">
                 <a href="http://komwork.infinityfreeapp.com/" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/k2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/k2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Page contact"><i class="bx bx-plus">1</i></a>
+                  <a href="assets/img/portfolio/k4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Page about"><i class="bx bx-plus">2</i></a>
                   <!-- <a href="/assets/port-detal/portfolio-details.html" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                  <a href="portfolio-details.html" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <!-- <a href="portfolio-details.html" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>
@@ -45,27 +46,27 @@
                 <p>Game on JS</p>
                 <div class="portfolio-links">
                 <a href="https://vermillion-banoffee-78e7af.netlify.app/" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/rulet.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Ruletka done with JS"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/rulet2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Ruletka done with JS"><i class="bx bx-plus"></i></a>
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-php">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-php">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/first-php.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Presentation version</h4>
                 <p>What can i do with PHP</p>
-                <div class="portfolio-links">
+                <div class="portfolio-links"> -->
                 <!-- <a href="#" target="_blank"><i class="bx bx-link"></i></a> -->
-                  <a href="assets/img/portfolio/k4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="assets/img/portfolio/k4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus"></i></a> -->
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
+                <!-- </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-php">
             <div class="portfolio-wrap">
@@ -75,7 +76,9 @@
                 <p>What can i do with PHP</p>
                 <div class="portfolio-links">
                 <!-- <a href="#" target="_blank"><i class="bx bx-link"></i></a> -->
-                  <a href="assets/img/portfolio/w1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/two-php2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Page travel"><i class="bx bx-plus">1</i></a>
+                  <a href="assets/img/portfolio/two-php3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus">2</i></a>
+                  <a href="assets/img/portfolio/two-php4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired PHP skills"><i class="bx bx-plus">3</i></a>
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
@@ -90,7 +93,9 @@
                 <p>What can i do with figma</p>
                 <div class="portfolio-links">
                 <a href="https://presentation-version.netlify.app" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/w1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired HTML & CSS skills"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/lem-hed2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired HTML & CSS skills"><i class="bx bx-plus">1</i></a>
+                  <a href="assets/img/portfolio/lem-hed3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired HTML & CSS skills"><i class="bx bx-plus">2</i></a>
+                  <a href="assets/img/portfolio/lem-hed4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Acquired CSS 3 skills"><i class="bx bx-plus">3</i></a>
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
@@ -105,7 +110,7 @@
                 <p>Game on JS</p>
                 <div class="portfolio-links">
                 <a href="https://pacanu.netlify.app" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/pazl.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Ruletka done with JS"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/pazl2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Pazl done with JS"><i class="bx bx-plus"></i></a>
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
@@ -120,7 +125,9 @@
                 <p>Game on JS</p>
                 <div class="portfolio-links">
                 <a href="https://str7.netlify.app" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/w1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game Ruletka done with JS"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/w2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game StarWars done with JS"><i class="bx bx-plus">1</i></a>
+                  <a href="assets/img/portfolio/w3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game StarWars done with JS"><i class="bx bx-plus">2</i></a>
+                  <a href="assets/img/portfolio/w4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Game StarWars done with JS"><i class="bx bx-plus">3</i></a>
                   <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
