@@ -14,7 +14,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
   <?php if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
         <li><?php
                if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
-                   $sql = 'SELECT * FROM userku WHERE id=' . $_SESSION["user_id"];
+                   $sql = 'SELECT * FROM users WHERE id=' . $_SESSION["user_id"];
                    //var_dump($sql);
                    $result = mysqli_query($conn, $sql);
                    $user = $result->fetch_assoc();
@@ -54,6 +54,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'git'): ?> <?php endif; ?> >
           <a href="/?p=git.php"><i class='bx bxs-like bx-tada'></i><span>Git</span></a>
         </li>
+        <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'add-portfol'): ?> <?php endif; ?> >
+          <a href="/?p=add-portfol.php"><i class='bx bx-plus'></i><span>Add</span></a>
+        </li>
 				<!-- <li class="text-danger"><a href="/logout.php/">Logout</a></li> -->
 				<?php }else{ ?>
     
@@ -72,9 +75,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
       <li><a href="#portfolio" class="nav-link scrollto">
         <i class="bx bx-book-content"></i> <span>Portfolio</span></a>
       </li>
-      <!-- <li><a href="#adminka" class="nav-link scrollto">
-        <i class="bx bx-server"></i> <span>Register</span></a>
-      </li> -->
+      <li><a href="#bd" class="nav-link scrollto">
+        <i class="bx bx-server"></i> <span>з бази даних</span></a>
+      </li>
       <!-- <li><a href="#testimonials" class="nav-link scrollto">
         <i class="bx bx-user"></i> <span>Testimonials</span></a>
       </li> -->

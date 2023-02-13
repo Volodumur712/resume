@@ -32,6 +32,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'fril.php':
         $pagess = 'fril';
         break;
+        case 'add-portfol.php':
+        $pagess = 'add-portfol';
+        break;
         default:
         $pagess = 'htmcss';
         break;
@@ -45,6 +48,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/scill.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/resume.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/portfolio.php');
+   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/port_bd.php');
+
    //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-admin/adminka.php');
 
    /*require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/git.php');

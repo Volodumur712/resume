@@ -11,8 +11,8 @@ if(!empty($_POST)) {
 
     $parol = $_POST['password'];
     $passwordHash = password_hash($parol, PASSWORD_BCRYPT);
-    // INSERT INTO `userku` (`id`, `u_name`, `u_email`, `u_pass`, `comit`) VALUES (NULL, 'we', 'we@we', 'we', 'we');
-      $sql = "INSERT INTO userku (`u_name`, `u_email`, `u_pass`) VALUES ('$imja', '$poshta', '$passwordHash');";
+    // INSERT INTO `users` (`id`, `u_name`, `u_email`, `u_pass`, `role`) VALUES (NULL, 'we', 'we@we', 'we', 'admin');
+      $sql = "INSERT INTO users (`u_name`, `u_email`, `u_pass`) VALUES ('$imja', '$poshta', '$passwordHash');";
       //var_dump($sql);
       if (mysqli_query($conn, $sql)) {
           echo "Нового користувача додано";

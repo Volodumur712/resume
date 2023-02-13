@@ -29,8 +29,10 @@
                 <p>Implemented using PHP</p>
                 <div class="portfolio-links">
                 <a href="http://komwork.infinityfreeapp.com/" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/k2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Page contact"><i class="bx bx-plus">1</i></a>
-                  <a href="assets/img/portfolio/k4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Page about"><i class="bx bx-plus">2</i></a>
+                  <a href="assets/img/portfolio/k2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                  title="Page contact"><i class="bx bx-plus">1</i></a>
+                  <a href="assets/img/portfolio/k4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                  title="Page about"><i class="bx bx-plus">2</i></a>
                   <!-- <a href="/assets/port-detal/portfolio-details.html" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                   <!-- <a href="portfolio-details.html" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
@@ -142,8 +144,10 @@
                 <p>Kom Work 2</p>
                 <div class="portfolio-links">
                 <a href="https://com-work.netlify.app" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/kw2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Collaborative learning"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  <a href="assets/img/portfolio/kw2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                  title="Collaborative learning"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" 
+                  title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
             </div>

@@ -1,9 +1,9 @@
 // alert("js work");
-// перевірка чи підключено
-// $('#formTwit').on('submit', function(e) {
-//     e.preventDefault();
-//     alert('jquery Work');
-// });
+/* перевірка чи підключено
+ $('#formTwit').on('submit', function(e) {
+     e.preventDefault();
+     alert('jquery Work');
+ }); */
 
 // для відправки твітів 
 $('#formTwit').on('submit', function(e) {
@@ -18,7 +18,6 @@ $('#formTwit').on('submit', function(e) {
     let form_data = new FormData($('#formTwit')[0]);
         form_data.append('file', file_data);
 
-
     $.ajax({
         url:"/modules/add-twit.php ",
         type:"POST",
@@ -30,5 +29,4 @@ $('#formTwit').on('submit', function(e) {
            // console.dir(data)
        },
     });
-
 });
