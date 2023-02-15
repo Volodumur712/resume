@@ -35,6 +35,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'add-portfol.php':
         $pagess = 'add-portfol';
         break;
+        case 'add_fon_image.php':
+        $pagess = 'add_fon_image';
+        break;
         default:
         $pagess = 'htmcss';
         break;

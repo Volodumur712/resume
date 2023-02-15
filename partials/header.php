@@ -42,9 +42,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'htmcss'): ?> <?php endif; ?> >
           <a href="/?p=htmcss.php"><i class="bx bx-file-blank"></i> <span>HTML</span></a>
         </li>
-        <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'fril'): ?> <?php endif; ?> >
+        <!-- <li <?php // if(!isset($_GET['p']) || $_GET['p'] == 'fril'): ?> <?php // endif; ?> >
           <a href="/?p=fril.php"><i class='bx bx-euro'></i><span>Frilans</span></a>
-        </li>
+        </li> -->
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'ph_p'): ?> <?php endif; ?> >
           <a href="/?p=ph_p.php"><i class="bx bx-book-content"></i> <span>PHP</span></a>
         </li>
@@ -54,8 +54,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'git'): ?> <?php endif; ?> >
           <a href="/?p=git.php"><i class='bx bxs-like bx-tada'></i><span>Git</span></a>
         </li>
-        <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'add-portfol'): ?> <?php endif; ?> >
-          <a href="/?p=add-portfol.php"><i class='bx bx-plus'></i><span>Add</span></a>
+        <li>
+            
+          <ul class="list-group list-group-horizontal">
+            <li><?php if(!isset($_GET['p']) || $_GET['p'] == 'add-portfol'): ?> <?php endif; ?> 
+            <a href="/?p=add-portfol.php"><i class='bx bx-plus'></i><span>Add</span></a>
+            </li>
+            <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'add_fon_image'): ?> <?php endif; ?> >
+              <a href="/?p=add_fon_image.php"><i class='bx bx-plus'></i><span>fon</span></a>
+            </li>
+          </ul>
         </li>
 				<!-- <li class="text-danger"><a href="/logout.php/">Logout</a></li> -->
 				<?php }else{ ?>

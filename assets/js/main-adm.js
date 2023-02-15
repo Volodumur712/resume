@@ -30,3 +30,27 @@ $('#formTwit').on('submit', function(e) {
        },
     });
 });
+
+$('#formEdit').on('submit', function(e) {
+    e.preventDefault();
+    
+    let form = $('#formEdit');
+    
+    // fon_image додати у інпут в формі
+    let file_data = $('fon_image').prop('files'); // отримати проперті - файл з fon_image
+    let form_data = new FormData($('#formEdit')[0]);
+        form_data.append('file', file_data);
+
+    $.ajax({
+        url:"/modules/edit-twit.php ",
+        type:"POST",
+        data: form_data,
+        processData: false,
+        contentType: false,
+        success:function(data) {
+            let ajaxStatus = $('#listTwits').prepend(data)
+           // console.dir(data)
+       },
+    });
+});
+

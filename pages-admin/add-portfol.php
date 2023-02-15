@@ -7,7 +7,7 @@
             <input type="text" name="title" placeholder="    Title" style="width: 70%;"class="border border-success rounded-pill border-3">
         </div>
 
-        <div class="m-3 p-5 border border-success rounded-3 border-3">
+        <div class="m-3 p-5 border border-success rounded-pill border-3">
             <label for="image" class="form-label">Main image</label>
             <input class="form-control" type="file" name="image" id="twitImage" multiple>
         
@@ -29,31 +29,33 @@
             </datalist>
         </div>
 
-        <div class="m-3 p-5 border border-primary rounded-pill border-3">
+        <!-- <div class="m-3 p-5 border border-primary rounded-pill border-3">
             <label for="fon_image" class="form-label">Fon picture</label>
             <input class="form-control" type="file" name="fon_image" id="fon_image" multiple>
         
             <label for="fon_img_desc" class="text-center m-3">Fon picture description</label>    
             <textarea class="form-control" name="fon_img_desc" id="" rows="3" value="fon_img_desc"></textarea>
-        </div>
+        </div> -->
 
-        <div class="m-3 p-5 border border-warning rounded-pill border-3">
+        <!-- <div class="m-3 p-5 border border-warning rounded-pill border-3">
             <label for="fon_2" class="form-label">Fon 2</label>
             <input class="form-control" type="file" name="fon_2" id="fon_2" multiple>
         
             <label for="fon_desc2" class="text-center m-3">Fon 2 description</label>    
             <textarea class="form-control" name="fon_desc2" id="" rows="3" value="fon_desc2"></textarea>
-        </div>
+        </div> -->
 
-        <div class="m-3 p-5 border border-info rounded-pill border-3">
+        <!-- <div class="m-3 p-5 border border-info rounded-pill border-3">
             <label for="fon_3" class="form-label">Fon 3</label>
             <input class="form-control" type="file" name="fon_3" id="fon_3" multiple>
         
             <label for="fon_desc3" class="text-center m-3">Fon 3 description</label>    
             <textarea class="form-control" name="fon_desc3" id="" rows="3" value="fon_desc3"></textarea>
-        </div>
+        </div> -->
 
         <button class="btn btn-success">Send</button>
     </form>
+
+    <!-- <a href="/pages-admin/add_fon_image.php" target="_blank"> <span>ADD fon_image</span></a> -->
 </div>
 
