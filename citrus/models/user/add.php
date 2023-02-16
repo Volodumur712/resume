@@ -4,7 +4,7 @@
 
     if(!empty($_POST)) {
         // echo $_POST['name'] . " - " . $_POST['email'];
-        $sql = "INSERT INTO `username` (`name`, `email`) VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "');";
+        $sql = "INSERT INTO `users` (`name`, `email`) VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "');";
         //var_dump($sql);
         // виконання запиту
         if (mysqli_query($conn, $sql)) {

@@ -1,5 +1,5 @@
 <section>
-	<h4 class="h2 m-2 p-1">PHP</h4>
+	<h4 class="text-center h2 m-2 p-1">PHP</h4>
     	<ul class="">
 			<li class="text-center m-4 p-3 border border-primary rounded-pill border-2 bg-warning opacity-75">
 				<a href="/pages-admin/part-php/back-end.php" target="_blank">9> <span> back-end XAMPP MySQL</span></a></li>

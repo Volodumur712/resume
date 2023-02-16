@@ -1,5 +1,5 @@
 <section>
-	<h4 class="h2 m-2 p-1">HTML&CSS</h4>
+	<h4 class="text-center h2 m-2 p-1">HTML&CSS</h4>
 		<ul class="">
 			(1. Загальні моменти)
 			<li class="text-center m-4 p-3 border border-primary rounded-pill border-2 bg-warning opacity-75">

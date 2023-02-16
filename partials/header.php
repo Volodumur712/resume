@@ -12,30 +12,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
   <nav id="navbar" class="navbar nav-menu">
   <ul>
   <?php if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
-        <li><?php
-               if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
-                   $sql = 'SELECT * FROM users WHERE id=' . $_SESSION["user_id"];
-                   //var_dump($sql);
-                   $result = mysqli_query($conn, $sql);
-                   $user = $result->fetch_assoc();
-
-                   if($user['role'] != "admin") {  ?>
-                    print("<script language=javascript>
-                    window.alert('You not admin');
-                    window.location = "../login.php";
-                    </script>");
-                    /* header("Location: ../login.php"); */
-                    <?php }  
-            ?>
-              <h1 class="text-danger"> <?php echo $user['u_name']; ?>  </h1>
-              <?php
-               } else {
-              ?>
-              <?php
-              }   
-              ?>
+        <li>
         </li>
-        <a href="/citrus/index.php" target="_blank" class="active"><i class="bi bi-telegram"></i>Adminka</a>
+        <a href="/citrus/ind.php" target="_blank" class="active"><i class="bi bi-telegram"></i>Adminka</a>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'jsbasics'): ?> <?php endif; ?> >
           <a href="/?p=jsbasics.php"  ><i class="bx bx-shield-quarter"></i><span>Js basics</span></a>
         </li>
@@ -86,12 +65,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
       <li><a href="#bd" class="nav-link scrollto">
         <i class="bx bx-server"></i> <span>з бази даних</span></a>
       </li>
-      <!-- <li><a href="#testimonials" class="nav-link scrollto">
-        <i class="bx bx-user"></i> <span>Testimonials</span></a>
-      </li> -->
-      <li><a href="#contact" class="nav-link scrollto">
+
+      
+      <!-- <li><a href="#contact" class="nav-link scrollto">
         <i class="bx bx-envelope"></i> <span>Contact</span></a>
-      </li>
+      </li> -->
       <?php } ?>
 <?php /*
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'home'): ?> <?php endif; ?> ><a href="/?p=home.php" class="active">Home</a></li>

@@ -1,8 +1,9 @@
 <section>
 	<div class="">
-		<h4 class="h2 m-2 p-1">Основи програмування до курсу програміст-фрілансер</h4>
+		<h4 class="text-center h2 m-2 p-1">Основи програмування до курсу програміст-фрілансер</h4>
+		<p class="text-center h2 m-2 p-1">(1. Організаційний)</p>
 		<ul class="">
-			(1. Організаційний)
+			
 			<li class="text-center m-4 p-3 border border-primary rounded-pill border-2 bg-warning opacity-75">
 				<a href="/pages-admin/jsbas/start.php" target="_blank">2> <span>Тестування та база знань</span></a>
 			</li>
