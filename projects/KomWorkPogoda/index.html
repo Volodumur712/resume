@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Komand Work 2</title>
+	<link rel="stylesheet" type="text/css" href="css/style-header.css">
+	<link rel="stylesheet" type="text/css" href="css/style-block.css">
+	<link rel="stylesheet" type="text/css" href="css/style-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="verh">
+			<button class="burger">
+				<img src="img/menu1.png">
+			</button>
+			<div id="kvad"></div>
+			<div class="logo">
+				<img src="img/logo.png"> 
+			</div>
+			<div class="search">
+			<!-- <input type="text" name="search" placeholder="Ваше місто"> -->
+			<select id="mySelect" onchange="fun1()">
+	<option value="0" latitude="0" longitude="0"></option>
+  <option value="1" latitude="48.92" longitude="24.71">Івано-Франківськ</option>
+  <option value="2" latitude="48.46" longitude="35.03">Дніпро</option>
+  <option value="3" latitude="50.42" longitude="30.54">Київ</option>
+  <option value="4" latitude="49.57" longitude="34.56">Полтава</option>
+  <option value="5" latitude="49.98" longitude="36.23">Харків</option>
+</select>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menu-button">
+				<a href="#" id="dateNow">Сьогодні<a/>
+			</div>
+						<div class="menu-button">
+				<a href="#">Тиждень<a/>
+			</div>
+<!--
+			<div class="menu-button">
+				<a href="#">Завтра<a/>
+			</div>
+			<div class="menu-button">
+				<a href="#">3 дні<a/>
+			</div>
+			<div class="menu-button">
+				<a href="#">5 днів<a/>
+			</div>
+			<div class="menu-button">
+				<a href="#">10 днів<a/>
+			</div>
+-->
+		</div>
+	</header>
+
+	<section class="main-block">
+		<div class="weather-detals">
+
+		<div class="city-detals-time">
+			<img src="img/city-detals-time.jpg">
+			<div class="indicator">
+				<div class="aspect">Температура відчувається як:</div>
+				<div class="sense" id="v1"> </div>
+			</div>
+			<div class="indicator">
+				<div class="aspect">Мін./макс. температура:</div>
+				<div class="sense" id="v2"> </div>
+			</div>
+						<div class="chartBlock"  >
+				<div class="aspectChart">Погодинний графік температури:</div>
+				<canvas id="v3" ></canvas>
+						</div>
+			<div class="indicator">
+				<div class="aspect">Опади дощ/загалом, мм:</div>
+				<div class="sense" id="v4"> </div>
+			</div>
+			<div class="indicator">
+				<div class="aspect">Максимальна швидкість вітру:</div>
+				<div class="sense" id="v5"> </div>
+			</div>
+			<!--
+			<div class="indicator">
+				<div class="aspect">Ймовірність опадів:</div>
+				<div class="sense"> <span>42</span> %</div>
+			</div>
+			-->
+			<div class="indicator">
+				<div class="aspect">Схід сонця:</div>
+				<div class="sense" id="v6"> </div>
+			</div>
+			<div class="indicator">
+				<div class="aspect">Захід сонця:</div>
+				<div class="sense" id="v7"> </div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer-t">
+			<p>Погода в Україні і світі надана виключно для особистого некомерційного використання.</p>
+		</div>
+	</footer>
+	
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- для графіку -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+</body>
+</html>

@@ -183,6 +183,142 @@ h6 {
 	}
 } */
 
+
+
+/* стилі калькулятор і форма звязку */
+
+.proectprice-form {
+  padding: 10px 10px;
+  background-color: rgb(218, 238, 108);
+  box-shadow: 0px 8px 12px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#shapka {
+  background: rgb(208, 243, 10);
+  /* height: 120px;*/
+  border-radius: 20px;
+  padding: 15px;
+  font-family: Bradley Hand, cursive;
+  font-size: 14px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(11, 212, 38);
+  margin-bottom: 5px;
+}
+
+.project-conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tipp {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgb(15, 186, 238);
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.projectselect {
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.activ-conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.activchek {
+  margin-bottom: 15px;
+}
+
+.activchektitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.acttitlechec {
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 5px 4px #333;
+}
+
+.project-price-conteiner {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.project-pricesumm {
+  font-size: 26px;
+  line-height: 15px;
+  color: #4f4f4f;
+  margin-left: 25px;
+}
+
+.curens {
+  color: rgb(38, 0, 255);
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#fidback {
+  text-align: left;
+}
+
+#formdiv {
+  float: right;
+  width: 30%;
+  margin: auto 20px;
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

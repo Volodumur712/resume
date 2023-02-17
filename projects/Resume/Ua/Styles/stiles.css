@@ -1,0 +1,147 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+.body {
+  color: blue;
+}
+
+.yse {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.yse {
+  width: 1590px;
+  margin: auto;
+}
+
+.vsja {
+  background-color: unset;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  width: 650px;
+}
+
+.shapka {
+  color: brown;
+  text-shadow: 6px 6px 20px rgba(141, 14, 14, 0.904);
+}
+
+.data {
+  color: cadetblue;
+  margin-left: 30px;
+}
+
+.education {
+  margin: 0;
+  padding: 0;
+}
+
+.osvita {
+  font-size: 40px;
+}
+
+.now {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-style: normal;
+  line-height: 44px;
+  font-size: 34px;
+  margin: 0;
+}
+
+.zar {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-style: normal;
+  line-height: 4px;
+  font-size: 40px;
+  padding-bottom: 0;
+}
+
+.workshap {
+  font-size: 35px;
+  color: blue;
+}
+.work {
+  color: black;
+  font-size: 20px;
+}
+
+.rozrob {
+  color: black;
+  padding: 0;
+}
+
+.wp {
+  color: blue;
+}
+
+.ssul {
+  font-size: 25px;
+  color: darkgreen;
+}
+
+.posada {
+  font-size: 20px;
+  color: darkgreen;
+}
+
+.compani {
+  color: coral;
+}
+
+.period {
+  font-size: 15px;
+}
+
+.datacomp {
+  font-size: 20px;
+  color: cadetblue;
+}
+
+.Skills {
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  font-family: cursive;
+}
+
+.navv {
+  color: crimson;
+  font-size: 25px;
+  text-align: left;
+}
+
+.education {
+  color: darkgreen;
+}
+
+.cont {
+  color: black;
+  padding-left: 30px;
+  padding-top: 40px;
+  background-color: rgb(148, 148, 173);
+}
+
+.sideb {
+  color: black;
+}
+
+.foto {
+  width: 310px;
+}
+
+.language {
+  color: black;
+  font-size: 20px;
+}
+
+.rez {
+  font-size: 25px;
+  background-color: rgb(206, 142, 96);
+  margin-left: 0;
+  padding-left: 25px;
+  color: blue;
+}

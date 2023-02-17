@@ -1,0 +1,384 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(230, 237, 247);
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Wraper {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* contacts */
+
+.socialinc {
+  text-decoration: none;
+}
+
+.contaupsection {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phonenomer {
+  margin-left: 50px;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.mailtoicon {
+  width: 18px;
+  height: 18px;
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+/* foto */
+
+.exspersec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
+
+.myphoto {
+  margin-bottom: 25px;
+  border-radius: 50pc;
+  width: 180px;
+  height: 230px;
+}
+
+.iconsfb,
+.iconstelegram {
+  width: 18px;
+  height: 18px;
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+.iconsviber {
+  width: 18px;
+  height: 18px;
+  margin-left: 35px;
+  text-decoration: none;
+
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.discrip {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.discriptext {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+.discriptextfff {
+  margin-bottom: 10px;
+  color: crimson;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ivano {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: azure;
+  margin-bottom: 30px;
+  background-color: rgb(253, 77, 100);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*Myinfosection */
+
+.Myinfosection {
+  margin: 0 25px;
+  width: 40%;
+}
+
+.myname {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.Develop {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 30px;
+  text-shadow: #4f4f4f 8px;
+  
+  font-weight: bold;
+  color: rgb(255, 2, 2);
+}
+
+.scillist {
+  list-style: disc;
+  padding-left: 18px;
+  color: crimson;
+}
+
+.mylist {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(0, 38, 255);
+}
+
+.mylisttext {
+  font-size: 26px;
+  line-height: 45px;
+  color: rgb(255, 136, 0);
+}
+
+/*project-price*/
+
+.project-price {
+  width: 40%;
+}
+
+.proectprice-form {
+  padding: 20px;
+  background-color: #ffff;
+  box-shadow: 0px 8px 12px;
+  border-radius: 16px;
+}
+
+.projectconteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.proectprice-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 30px;
+}
+
+.tipp {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: brown;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.projectselect {
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+  padding-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.activconteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.activchek {
+  margin-bottom: 15px;
+}
+
+.activchektitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.acttitlechec {
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 5px 4px #333;
+}
+
+.projectpriceconteiner {
+  margin-bottom: 30px;
+}
+
+.project-pricesumm {
+  font-size: 26px;
+  line-height: 35px;
+  color: #4f4f4f;
+}
+
+.curens {
+  color: chartreuse;
+  font-weight: bold;
+}
+
+.calculcont {
+  width: auto;
+  text-align: center;
+}
+
+.calculjator {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: beige;
+  background-color: blue;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/*modal-bgd*/
+
+.modelclose-icon {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-bgd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(151, 160, 238);
+  justify-content: center;
+
+  pointer-events: none;
+  opacity: 0;
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.modelcontform {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailllicon {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.modelcont {
+  background-color: #ffffff;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0);
+  border-radius: 16px;
+  padding: 100px 40px;
+  width: 350px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.modeltitle {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 30px;
+}
+
+.usermailtitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  width: 100%;
+}
+
+.user-email {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 8px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+.mailinputconte {
+  margin-bottom: 80px;
+}
+
+.mailerortext {
+  color: firebrick;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  display: none;
+}
+
+.mailinputconteeror .mailerortext {
+  display: block;
+}
+
+.mailinputconteeror .user-email {
+  border-bottom: 1px solid firebrick;
+}
+
+.modelsubmit {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: beige;
+  background-color: blue;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

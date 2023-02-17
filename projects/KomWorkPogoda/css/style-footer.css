@@ -1,0 +1,13 @@
+
+.footer {
+  height: 80px;
+  background: greenyellow;
+}  
+.footer-t {
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-t:hover {
+  color: red;
+  font-size: 22px;
+}

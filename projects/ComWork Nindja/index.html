@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Ніндзя черепашки</title>
+    </head>
+
+    <body>
+        <div class="globalContainer">
+            <div class="headerStyle">
+                <div class="topBar-left">
+                    <img src="images/menu-ico.png" width="50px" heigth="50px" />
+                </div>
+                <div class="topBar-center">
+                    <img src="images/turtlesLogo.png" width="200px" />
+                </div>
+                <div class="topBar-right">
+                    <span>
+                        <h3>UA</h3>
+                    </span>
+                </div>
+            </div>
+            <div class="command">
+                <span>Комманда</span>
+                <div class="developer">
+                    <div id="dev1" class="tooltip">
+                        <button class="dropbtn">
+                            <img src="images/don.jpg" width="50px" />
+                        </button>
+                        <span class="tooltiptext"
+                            ><a href="#"
+                                ><b
+                                    >Знайомтесь .</b
+                                ></a
+                            ></span
+                        >
+                    </div>
+
+                    <div id="dev2" class="tooltip">
+                        <button class="dropbtn">
+                            <img src="images/Leo.jpg" width="60px" />
+                        </button>
+                        <span class="tooltiptext"
+                            ><a href="#"
+                                ><b
+                                    >Денис.</b
+                                ></a
+                            ></span
+                        >
+                    </div>
+
+                    <div id="dev3" class="tooltipEndy">
+                        <button class="dropbtn">
+                            <img src="images/mik.jpg" width="60px" />
+                        </button>
+                        <span class="tooltiptext"
+                            ><a href="#"
+                                ><b
+                                    >Жінка .</b
+                                ></a
+                            ></span
+                        >
+                    </div>
+
+                    <div id="dev4" class="tooltipEndy">
+                        <button class="dropbtn">
+                            <img src="images/raf.jpg" width="60px" />
+                        </button>
+                        <span class="tooltiptext"
+                            ><a href="#"
+                                ><b
+                                    >Обчислювач.</b
+                                ></a
+                            ></span
+                        >
+                    </div>
+                </div>
+            </div>
+            <!-- game -->
+            <div class="containerGame">
+                <div id="start">
+                    <h2>давай пограємо з котиком ЗСУ поки думаєш</h2>
+                    <img src="images/kote.png" id="kote" />
+                    <button class="button">грати</button>
+                </div>
+                <div id="endBlock" style="display: none">
+                    <h2>Гра завершена на швидкості</h2>
+                    <span id="spanEndSpeed">1000</span>
+                    <img src="images/kote.png" id="kote" />
+                    <button class="buttonEnd">оновити</button>
+                </div>
+                <div id="game" style="display: none">
+                    <div id="speed">
+                        SpeedGame: <span id="spanSpeed"></span>
+                    </div>
+                    <div id="player"></div>
+                </div>
+            </div>
+
+            <!-- наша робота -->
+            <div class="cases">
+                <!-- калькулятор -->
+                <div class="project-price" id="calculiator">
+                    <section class="project-price">
+                        <div id="shapka">
+                            <h3>Розрахунок вартості замовлення послуг</h3>
+                        </div>
+                        <div
+                            class="proectprice-form"
+                            method="POST"
+                            data-netlify="true"
+                            id="proectprice-form"
+                        >
+                            <div class="project-conteiner">
+                                <label for="projectorder" class="tipp">
+                                    Виберіть тип
+                                </label>
+
+                                <select
+                                    name="projectorder"
+                                    id="projectorder"
+                                    class="projectselect"
+                                >
+                                    <option value="landing-page">
+                                        Створення Сайту
+                                    </option>
+                                    <option value="e-shop">
+                                        Інтернет-магазин
+                                    </option>
+                                    <option selected value="market">
+                                        Крута ігруха
+                                    </option>
+                                    <option value="mobile">
+                                        Мобільний додаток
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="activ-conteiner">
+                                <p class="tipp">Що потрібно зробити</p>
+
+                                <div class="activchek">
+                                    <input
+                                        type="checkbox"
+                                        name="Creation"
+                                        id="Creation"
+                                        class="acttitlechec"
+                                    />
+                                    <label for="Creation" class="activchektitle"
+                                        >Створення</label
+                                    >
+                                </div>
+
+                                <div class="activchek">
+                                    <input
+                                        type="checkbox"
+                                        name="Adjustment"
+                                        id="Adjustment"
+                                        class="acttitlechec"
+                                    />
+                                    <label
+                                        for="Adjustment"
+                                        class="activchektitle"
+                                        >Настройка</label
+                                    >
+                                </div>
+
+                                <div class="activchek">
+                                    <input
+                                        type="checkbox"
+                                        name="heelpp"
+                                        id="heelpp"
+                                        class="acttitlechec"
+                                    />
+                                    <label for="heelpp" class="activchektitle"
+                                        >Допомога</label
+                                    >
+                                </div>
+
+                                <div class="activchek">
+                                    <input
+                                        checked
+                                        type="checkbox"
+                                        name="Consultation"
+                                        id="Consultation"
+                                        class="acttitlechec"
+                                    />
+                                    <label
+                                        for="Consultation"
+                                        class="activchektitle"
+                                        >Консультація</label
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="project-price-conteiner">
+                                <p class="tipp">Вартість</p>
+                                <p class="project-pricesumm">
+                                    <span class="curens">$</span>
+                                    <span id="totalprice">0</span>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- форма зворот звязку -->
+                <div id="formdiv">
+                    <div id="fidback" class="container">
+                        <form action="action_page.php">
+                            <label for="fname">Імя та Прізвище</label>
+                            <input
+                                type="text"
+                                id="fname"
+                                name="firstname"
+                                placeholder="Імя.."
+                            />
+
+                            <label for="lname">Спосіб зв'язку</label>
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lastname"
+                                placeholder="Ел.пошта або телефон"
+                            />
+
+                            <label for="subject">Коментарчики</label>
+                            <textarea
+                                id="subject"
+                                name="subject"
+                                placeholder="Залишіть коментар якщо є потреба"
+                                style="height: 20%"
+                            ></textarea>
+
+                            <button id="send">
+                                <h3>
+                                    <a
+                                        href="mailto:alex@itbanda.pro"
+                                        target='_blank"'
+                                        >Відправити</a
+                                    >
+                                </h3>
+                            </button>
+
+                            <!-- <button type="submit" id="send">Відправити </button> -->
+                            <!-- <h3> <a href="mailto:citrus1989@gmail.com" target="_blank&quot;">Відправити</a> </h3> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- contacts -->
+            <div class="contacts">
+                <div class="developer-cont">
+                    <div id="dev11">
+                        <button class="dropbtn">
+                            <img src="images/dev44.jpg" width="60px" /><a
+                                href="tel:380508253287"
+                            >
+                                call Vova</a
+                            >
+                        </button>
+                    </div>
+
+                    <div id="dev22">
+                        <button class="dropbtn">
+                            <img src="images/dev11.jpg" width="60px" /><a
+                                href="tel:380508253287"
+                            >
+                                call Denis</a
+                            >
+                        </button>
+                    </div>
+
+                    <div id="dev33">
+                        <button class="dropbtn">
+                            <img src="images/dev33.jpg" width="60px" /><a
+                                href="tel:380508253287"
+                            >
+                                call Anastasia</a
+                            >
+                        </button>
+                    </div>
+
+                    <div id="dev44">
+                        <button class="dropbtn">
+                            <img src="images/dev22.jpg" width="60px" /><a
+                                href="tel:380508253287"
+                            >
+                                call Vova</a
+                            >
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -18,9 +18,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
                     </script>");
                     /* header("Location: ../login.php"); */
                     <?php }  
-              ?>
-              <h1 class="text-danger p-3">Hello  <?php echo $user['u_name']; ?>  </h1>
-              <?php
+              require($_SERVER['DOCUMENT_ROOT'] . '/pages-admin/hedmenu.php');
                } else {
               ?>
               <?php
@@ -60,6 +58,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'add_fon_image.php':
         $pagess = 'add_fon_image';
         break;
+        case 'mylinks.php':
+        $pagess = 'mylinks';
+        break;
         default:
         $pagess = 'htmcss';
         break;
@@ -73,7 +74,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/scill.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/resume.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/portfolio.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/port_bd.php');
+
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/port_bd.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/calculator.php');
   }
   ?>
 
