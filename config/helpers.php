@@ -24,7 +24,7 @@ function getCurrentUser() {
     if( $is_session || $is_cookie ) {
         $userID = $is_session ? $_SESSION["user_id"] : $_COOKIE["user_id"];
         // вибір користувача 
-        $sql = "SELECT * FROM username WHERE id=" . $userID;
+        $sql = "SELECT * FROM users WHERE id=" . $userID;
 
         $result = mysqli_query($conn, $sql); // видати результат зі змінних conn i sql
         return $result->fetch_assoc();
@@ -34,6 +34,7 @@ function getCurrentUser() {
 }
 
 // отримати id користувача
+/*
 function getUserID() {
     $is_session = isset($_SESSION["user_id"]) && $_SESSION["user_id"] != null; // true/false
     $is_cookie = isset($_COOKIE["user_id"]) && $_COOKIE["user_id"] != null; // true/false
@@ -44,14 +45,24 @@ function getUserID() {
         return null;
     }
 }
+*/
 
 // отримати всі твіти
-function getAllTwitsByUser($userID) {
+/* function getAllTwitsByUser($userID) {
     global $conn;
     // СОРТУВАННЯ У ЗВОРОТНЬОМУ ПОРЯДКУ  ORDER BY id DESC"
     $sql = "SELECT * FROM posts WHERE user_id=" . $userID;
 
     $result = mysqli_query($conn, $sql);
 
-    return $result;
-} 
+    return $result; 
+} */
+
+/*function getAll() {
+    global $conn;
+    // СОРТУВАННЯ У ЗВОРОТНЬОМУ ПОРЯДКУ  ORDER BY id DESC"
+    $sql = "SELECT * FROM posts;
+    $result = mysqli_query($conn, $sql);
+    return $result; 
+}
+*/

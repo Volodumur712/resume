@@ -10,7 +10,7 @@ if(!empty($_POST)) {
 
     $parol = $_POST['password'];
     
-    $sql = "SELECT * FROM userku WHERE u_name = '$imja'";
+    $sql = "SELECT * FROM users WHERE u_name = '$imja'";
     // . '" AND password="' . $_POST['password'] . '";
     // var_dump($sql);
     //$result = $conn->query($sql);

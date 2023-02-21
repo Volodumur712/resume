@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+
+  body {
+    width: 100%;
+  }
+
+  .dayWeek {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  body {
+    width: 100%;
+  }
+
+  .dayWeek {
+    width: 46%;
+  }
+
+  .indicator {
+    font-size: 15px;
+  }
+
+  .aspect:hover {
+    font-size: 18px;
+  }
+
+  .aspect {
+    width: 250px;
+  }
+
+  .aspectChart {
+    width: 50%;
+  }
+
+  .sense:hover {
+    font-size: 18px;
+  }
+
+  .footer-t {
+    padding-top: 5px;
+  }
+
+  .footer-t p {
+    margin-top: 4px;
+  }
+
+  .footer-t:hover {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    width: 100%;
+  }
+
+  /* перший ряд */
+  .burger {
+    height: 45px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    padding: 1px 10px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search input {
+    width: 80%;
+    height: 40px;
+  }
+
+  /* другий ряд */
+  .menu {
+    font-size: 13px;
+  }
+
+  .menu a {
+    padding-left: 6px;
+  }
+
+  /* меню */
+  .dayWeek {
+    width: 44%;
+  }
+
+  .indicator,
+  .chartBlock {
+    font-size: 12px;
+  }
+
+  .footer-t {
+    font-size: 12px;
+  }
+
+  .footer-t:hover {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  @media screen and (max-width: 400px) {
+
+    body {
+      width: 100%;
+    }
+
+    .header {
+      height: 145px;
+    }
+
+    .menu {
+      display: none;
+      height: 130px;
+    }
+  }
+}

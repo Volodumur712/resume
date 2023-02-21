@@ -65,7 +65,7 @@
                   - CMS: <a href="https://uk.wordpress.org/" target="_blank">WordPress</a>; </br>
                   - Programming languages: PHP, JavaScript, JQuery; </br>
                   - Database: MySql; </br>
-                  - Version control: GIT, <a href="https://github.com/" target="_blank">GitHub</a>; </br>
+                  - Version control: GIT, <a href="https://github.com/Volodumur712?tab=repositories" target="_blank">GitHub</a>; </br>
                   - Framework: Bootstrap; </br>
                   - Programs for time management: <a href="https://www.teamwork.com/" target="_blank">TeamWork</a>,
                     <a href="https://trello.com/" target="_blank">Trello</a>,

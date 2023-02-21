@@ -3,7 +3,7 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 ?>
 <div class="text-center m-3">
-    <a href="/?p=fril.php">js basics</a>
+    <a href="/?p=fril.php">qqq</a>
 </div>
 
 

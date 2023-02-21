@@ -1,7 +1,7 @@
 <section>
 	<h4 class="h2 m-2 p-1 text-danger">Міні курс по Git</h4>
 				<div class="d-flex">
-					<a href="https://github.com/"> <span>Мій GIT</span></a>
+					<a href="https://github.com/Volodumur712?tab=repositories" target="_blank"> <span>Мій GIT</span></a>
 					<!-- start git-->
 					<div class="col-xl-5 col-lg-6 col-md-6">
 						<ul> GIT IT Banda
@@ -19,7 +19,7 @@
 							</li>
 						</ul>
 					</div>
-					<a href="https://github.com/"> <span>GIT</span></a>
+					<a href="https://github.com/" target="_blank"> <span>GIT</span></a>
 					<div class="col-xl-5 col-lg-6 col-md-6">
 						<ul> GIT youtube
 							<li>
@@ -42,3 +42,17 @@
 				</div> 
 				<!-- end class git-->
 </section>
+
+
+	<div class="text-center m-4 p-3 border border-primary rounded-pill border-5 bg-warning opacity-75">
+        <p><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+        Урок №8: "Фріланс покроковий план виходу на доходи" 
+        </button></p>
+        <div class="collapse text-center" id="collapseExample3">
+            <div class="card card-body align-items-center">
+			<iframe width="475" height="357" src="https://www.youtube.com/embed/E3d1tBY7fDs" 
+				title="Фріланс с чого почати" frameborder="0" allow="accelerometer; autoplay; 
+				clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>

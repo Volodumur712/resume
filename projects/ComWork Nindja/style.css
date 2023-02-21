@@ -1,0 +1,420 @@
+/* стилі дениса і володі*/
+
+.globalContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  z-index: -1;
+  background: url(images/background1.png) #384657;
+}
+
+.headerStyle {
+  display: flex;
+  background: #5cfd84;
+  margin: 2px 2px 2px 2px;
+  overflow: auto;
+  text-align: center;
+}
+
+.topBar-left {
+  position: inline;
+  margin: auto 10px;
+  background: #eff1ee;
+  text-align: center;
+}
+
+.topBar-center {
+  position: inline;
+  margin: auto auto;
+  background: #eff1ee;
+  text-align: center;
+}
+
+.topBar-right {
+  position: inline;
+  margin: auto 10px;
+  background-image: url("images/yelBlue.png");
+  background-repeat: no-repeat;
+  background-size: 30px 60px;
+  text-align: center;
+}
+
+.command {
+  text-align: center;
+  background: #e2f10c;
+  margin: 2px 2px 2px 2px;
+}
+
+.developer {
+  display: flex;
+  text-align: center;
+  background: #0cf1d2;
+  margin: 2px 2px 2px 2px;
+}
+
+#dev1,
+#dev2,
+#dev3,
+#dev4 {
+  display: inline;
+  width: 200px;
+  height: 100px;
+  background: #f30dcd;
+  margin: 10px auto;
+}
+
+.cases {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding-bottom: 80px;
+}
+
+.game {
+  margin: 20px auto;
+  /* height: 500px; 
+  background: #b9b9b8; */
+}
+
+.contacts {
+  position: fixed;
+  width: 100%;
+
+  background: #646462;
+  text-align: center;
+  bottom: 0px;
+}
+
+/* CSS Tooltip подсказка с правой стороны, которая появляется,
+ когда пользователь перемещает указатель мыши на элемент:*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 750px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 75%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* конец стилей подсказки с правой стороны */
+
+/* CSS Tooltip подсказка с левой стороны , которая появляется, 
+когда пользователь перемещает указатель мыши на элемент:*/
+.tooltipEndy {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltipEndy .tooltiptext {
+  visibility: hidden;
+  width: 750px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 75%;
+}
+
+.tooltipEndy:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* конец стилей подсказки с левой стороны */
+
+
+/* стилі гри*/
+/* Стартовое окно*/
+#start,
+#endBlock {
+  position: relative;
+  background: #e2f4f6;
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2px 20px;
+  margin: 50px auto;
+  font-family: Bradley Hand, cursive;
+  font-size: 14px;
+}
+
+
+#kote {
+  width: 150px;
+  margin-top: -30px;
+  background-position: top;
+}
+
+#game {
+
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+  margin: 10px auto;
+  background-color: lightgrey;
+
+}
+
+#speed {
+  position: absolute;
+  left: 20px;
+  top: 240px;
+}
+
+#spanEndSpeed {
+  position: absolute;
+  left: 350px;
+  top: 60px;
+}
+
+#player {
+  width: 150px;
+  height: 150px;
+  background-size: 150px 150px;
+  background-image: url(images/kote.gif);
+  position: absolute;
+  left: 20px;
+  top: 383px;
+}
+
+#player .playerGIF {
+  background: url(images/koteGIF.gif);
+}
+
+.tankStyle {
+  position: absolute;
+  top: 470px;
+  width: 106px;
+  height: 63px;
+  background-image: url("images/tank1.png");
+  background-repeat: no-repeat;
+}
+
+.button,
+.buttonEnd {
+  top: -80px;
+  min-width: 200px;
+  min-height: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #313133;
+  background: #4fd1c5;
+  border: none;
+  border-radius: 500px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  position: relative;
+}
+
+.button:before,
+.buttonEnd:before {
+  content: "";
+  border-radius: 100px;
+  min-width: calc(200px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00ffcb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.button:hover::before,
+button:focus::before,
+.buttonEnd:hover::before,
+.buttonEnd:focus::before {
+  opacity: 1;
+}
+
+.containerGame {
+  border: solid 1px white;
+  border-radius: 5px;
+  width: 100%;
+  height: 320px;
+}
+
+/* стилі калькулятор і форма звязку */
+
+.proectprice-form {
+  padding: 10px 10px;
+  background-color: rgb(208, 243, 10);
+  box-shadow: 0px 8px 12px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#shapka {
+  background: rgb(208, 243, 10);
+  height: 120px;
+  border-radius: 20px;
+  padding: 15px;
+  font-family: Bradley Hand, cursive;
+  font-size: 14px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(11, 212, 38);
+  margin-bottom: 5px;
+}
+
+.project-conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.tipp {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgb(15, 186, 238);
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.projectselect {
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.activ-conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.activchek {
+  margin-bottom: 15px;
+}
+
+.activchektitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.acttitlechec {
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 5px 4px #333;
+}
+
+.project-price-conteiner {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.project-pricesumm {
+  font-size: 26px;
+  line-height: 15px;
+  color: #4f4f4f;
+  margin-left: 25px;
+}
+
+.curens {
+  color: rgb(38, 0, 255);
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#fidback {
+  text-align: left;
+}
+
+#formdiv {
+  float: right;
+  width: 30%;
+  margin: auto 20px;
+}
+
+/* стилі контакти */
+
+.developer-cont {
+  display: flex;
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  background: #0cf1d2;
+  border-radius: 10px;
+}
+
+#dev11,
+#dev22,
+#dev33,
+#dev44 {
+  display: flex;
+  justify-content: center;
+  margin: 3px auto;
+  padding: 2px 2px;
+  background: yellowgreen;
+  border-radius: 10px;
+}

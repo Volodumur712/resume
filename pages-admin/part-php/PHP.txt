@@ -1,0 +1,107 @@
+XAMPP скачати і встановити
+галочки при установці MySQL PHP phpMyAdmin
+
+відкрити блокнот
+відредагувати файли для бази даних
+windows/system32/drivers/etc показати всі файли, відкрити hosts
+добавити строку 127.0.0.1 localhost і адресу сайту внутрішню (first-php.test)
+тобто дані будуть загружатися з компа на сайті first-php.test а не з мережі
+зберегти, тут все
+
+блокнот, відкрити файл для налаштування сайту
+xampp/apache/conf/extra всі файли httpd-vhost.conf
+у строці name virtualhost забрати спереду дві ришітки
+останній абзац скопіювати нижче і забрати всі ришітки
+видалити лишні строки (дві нижні і першу)
+documentRoot прописати шлях до папки 
+(у ксамп створити папку нову xampp/htdocs/first-php.test)
+ServerName first-php.vova 
+приклад
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/first-php.vova/"
+    ServerName first-php.vova
+</VirtualHost>
+
+інша папка у ксамп
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/two-php.vova/"
+    ServerName first-php.vova
+</VirtualHost>
+
+інша адреса хосту (також змінити у windows/system32/drivers/etc/ hosts)
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/first-php.vova/"
+    ServerName two-php.vova
+</VirtualHost>
+
+інша адреса хосту (також змінити у windows/system32/drivers/etc/ hosts)
+і інша папка у ксамп
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/two-php.vova/"
+    ServerName two-php.vova
+</VirtualHost>
+
+інша адреса хосту (також змінити у windows/system32/drivers/etc/ hosts)
+і інша папка у ксамп
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/a-php-local/"
+    ServerName localvovaphp
+</VirtualHost>
+
+
+за межами ксамп не підключає
+<VirtualHost *:80>
+    DocumentRoot "V:/sites/two-php.vova/"
+    ServerName two-php.vova
+</VirtualHost>
+
+зберегти, тут все
+
+у редакторі (vsc) cтворити файл index.php
+
+через xampp де mysql зайти в admin щоб створювати бази даних
+
+створити таблицю
+
+підключеня БД
+цей код к редактор
+<?php
+$servername = "localhost";
+$database = "сюди імя БД"; приклад vova22 як назвав у адмінці mySQL
+$username = "по замовч root";
+$password = "очистити";
+// Создаем соединение
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Проверяем соединение
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+mysqli_close($conn);
+?>
+перевірити чи є підключення
+
+нижче цей код
+$sql = "INSERT INTO Students (name, lastname, email) VALUES ('test', 'testin', 'tesing')";
+    if (mysqli_query($conn, $sql)) {
+        echo "New list create";
+    } else {
+        echo "error: " . $sql . "<br>" . mysql_error($conn); 
+    }
+    mysqli_close($conn);
+
+
+якщо в БД додати дані вручну вона видасть код для редактора
+його запхати у частину верхнього INSERT INTO , ВІДРЕДЕГУВАТИ ЯК ПОТРІБНО
+і цим кодом можна добавляти ще нові дані
+оновити сайт, має появитися новий користувач
+
+ТАКОЖ МОЖНА ВИДИЛИТИ
+БД дасть код 
+$sql = "DELETE FROM users WHERE id = 3;
+    if (mysqli_query($conn, $sql)) {
+        echo "deleted";
+    } else {
+        echo "error: " . $sql . "<br>" . mysql_error($conn); 
+    }
+    mysqli_close($conn);

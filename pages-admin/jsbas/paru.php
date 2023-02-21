@@ -16,7 +16,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
                 <iframe width="475" height="357" src="https://www.youtube.com/embed/I1ZcdkrcAQg" title="1. Создаем игру «Пары»" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Опис</p>
+                    <p></p>
                     <a href="https://drive.google.com/file/d/1Ji4aN2RpxO70fPcT8mrd5I3w_NhCkPZN/view" target="_blank">Архів</a>
             </div>
         </div>
@@ -44,7 +44,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/xK91sNuSLRg" title="3. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Обери блок ігрового поля та помісти його в змінну(коробку).
+                </br>
+Обери блок перезапуску гри div з атрибутом id=”reset” та помісти його в змінну resetBlock.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -58,7 +60,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/tWG41SVlSog" title="4. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Заповни ігрове поле карточками, блоками (тегами) li.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -72,7 +74,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/LE7cXMlwdx8" title="5. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби клік по карточкам.
+                </br>
+При кліці на карточку, змінюй колір карточки на зелений(green).</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -86,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/nyeZ_QYj2kg" title="6. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Пропиши умову, для того щоб клік працював тільки на блоках li.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -100,7 +104,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/coN5JEdEY28" title="7. Создаем игру «Пары»"
              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби масив для набору карточок.
+</br>
+Заповни масив інформацією про карточки.
+</br>
+Зроби відкриття карточок при кліку на них.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -114,7 +122,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/zg-eX-XOm88" title="8. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби відкриття тільки двох карточок.
+</br>
+Зроби функціонал перевертання карточок в зворотній бік, після того як дві карточки були перевернуті.
+</br>
+Зроби видалення карточок, якщо вони збіглись.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -128,7 +140,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/dEAdN7rs1Gw" title="9. Создаем игру «Пары»" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Після того, як були видалені всі карточки — показуй вікно з перезапуском гри.
+                </br>
+Зроби клік по кнопці “Restart”, після чого сторінка повинна оновлюватись.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

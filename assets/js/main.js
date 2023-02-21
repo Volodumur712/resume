@@ -39,6 +39,95 @@ window.addEventListener("DOMContentLoaded",() => {
 });
 */
 
+/* початок калькулятор */
+
+prices = {
+  "landing-page": {
+      cret: 1200,
+      adj: 300,
+      hell: 200,
+      cons: 50,
+  },
+  "e-shop": {
+      cret: 1000,
+      adj: 600,
+      hell: 300,
+      cons: 50,
+  },
+  market: {
+      cret: 600,
+      adj: 250,
+      hell: 200,
+      cons: 50,
+  },
+  mobile: {
+      cret: 1000,
+      adj: 250,
+      hell: 150,
+      cons: 50,
+  },
+};
+
+/* з цього місця треба комітити при логіні */
+
+/*
+function getformvalue() {
+  const websiteelement = document.querySelector(`#projectorder`);
+  const CreationEL = document.querySelector(`#Creation`);
+  const AdjustmentEL = document.querySelector(`#Adjustment`);
+  const heelppEL = document.querySelector(`#heelpp`);
+  const ConsultationEL = document.querySelector(`#Consultation`);
+
+  return {
+      websiteTipe: websiteelement.value,
+      cret: CreationEL.checked,
+      adj: AdjustmentEL.checked,
+      hell: heelppEL.checked,
+      cons: ConsultationEL.checked,
+  };
+}
+
+function calculatwork() {
+  const values = getformvalue();
+  let totalPrice = 0;
+  const workTypes = prices[values.websiteTipe];
+
+  if (values.cret) {
+      totalPrice = workTypes.cret;
+  }
+
+  if (values.adj) {
+      totalPrice = totalPrice + workTypes.adj;
+  }
+
+  if (values.hell) {
+      totalPrice = totalPrice + workTypes.hell;
+  }
+
+  if (values.cons) {
+      totalPrice = totalPrice + workTypes.cons;
+  }
+
+  const totalpriceEL = document.querySelector(`#totalprice`);
+
+  totalpriceEL.textContent = totalPrice;
+}
+
+getformvalue();
+
+const formEl = document.querySelector(`#proectprice-form`);
+
+formEl.addEventListener(`change`, calculatwork);
+
+// не перезавантажує сторінку при нажиманні кнопки
+formEl.addEventListener(`submit`, function (event) {
+  event.preventDefault();
+});
+*/
+
+/* кінець калькулятор */
+
+
 (function() {
   "use strict";
 

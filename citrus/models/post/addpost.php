@@ -1,28 +1,32 @@
 <?php
-    if(!empty($_POST)) {
-        
-        //         INSERT INTO `posts` (`twit`, `user_id`, `created`) 
-        //         VALUES ('jjjj', '66', current_timestamp());  створив у БД
-
-        // $sql = "INSERT INTO `posts` (`twit`, `user_id`, `created`) 
-        // VALUES ('tyty', '66', current_timestamp());"; // так працює через вар дамп
-        // коли підставляю значення замість формул то все працює
-
-          $sql = "INSERT INTO `posts` (`twit`, `user_id`, `created`) 
-         VALUES ('" . $_POST['twit'] . "', '" . $_POST['user_id'] . "', current_timestamp());";
-
-         //$sql = "INSERT INTO `posts` (`twit`, `user_id`, `created`) 
-         //VALUES ('" . $_POST['twit'] . "', '" . $_POST['user_id'] . "', current_timestamp());";
-         // чому формули не працюють  ( останнє значення працює, час проставляє а дописи і юзер порожні)
-
-        var_dump($sql);
-        // виконання запиту
+    /*if(!empty($_POST)) {
+        $sql = "INSERT INTO `posts` (`twit`, `user_id`, `created`) 
+        VALUES ('" . $_POST['twit'] . "', '" . $_POST['user_id'] . "', current_timestamp());";
+        // var_dump($sql);
         if (mysqli_query($conn, $sql)) {
             echo "Новий допис додано. <a href='/admin/posts.php'>Повернутись</a>";
         } else {
             echo "Error: " . $sql . "<br>" . mysql_error($conn); 
         }
-    }
+     }*/
+?>
+
+<?php 
+    if(!empty($_POST)) {
+        $twit = mysqli_real_escape_string($conn, $_POST['twit']); 
+        $userId = mysqli_real_escape_string($conn, $_POST['user_id']); 
+
+        $sql = "INSERT INTO `posts` (`twit`, `user_id`, `created`) 
+        VALUES ('$twit', '$userId', current_timestamp());";
+
+        // var_dump($sql); 
+
+        if (mysqli_query($conn, $sql)) {
+            echo "Новий допис додано. <a href='/admin/posts.php'>Повернутись</a>"; 
+        } else {
+            echo "Error: " . $sql . "<br>" . mysqli_error($conn); 
+        } 
+    } 
 ?>
 
 <div class="card shadow mb-4">

@@ -4,6 +4,26 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 ?>
 
   <main id="main">
+              <?php
+               if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
+                   $sql = 'SELECT * FROM users WHERE id=' . $_SESSION["user_id"];
+                   //var_dump($sql);
+                   $result = mysqli_query($conn, $sql);
+                   $user = $result->fetch_assoc();
+
+                   if($user['role'] != "admin") {  ?>
+                    print("<script language=javascript>
+                    window.alert('You not admin');
+                    window.location = "../login.php";
+                    </script>");
+                    /* header("Location: ../login.php"); */
+                    <?php }  
+              require($_SERVER['DOCUMENT_ROOT'] . '/pages-admin/hedmenu.php');
+               } else {
+              ?>
+              <?php
+              }   
+              ?>
 
   <?php
       if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) {
@@ -32,6 +52,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'fril.php':
         $pagess = 'fril';
         break;
+        case 'add-portfol.php':
+        $pagess = 'add-portfol';
+        break;
+        case 'add_fon_image.php':
+        $pagess = 'add_fon_image';
+        break;
+        case 'mylinks.php':
+        $pagess = 'mylinks';
+        break;
         default:
         $pagess = 'htmcss';
         break;
@@ -45,14 +74,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/scill.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/resume.php');
    require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/portfolio.php');
-   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-admin/adminka.php');
 
-   /*require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/git.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/htmcss.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/ph_p.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/page-adm/wordpres.php');*/
-   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-admin/testimonials.php');
-   require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/contact.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/port_bd.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/calculator.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/contact.php');
   }
   ?>
 
