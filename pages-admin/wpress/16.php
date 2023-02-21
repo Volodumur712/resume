@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Q8fnDm0JrMs" 
         title="Модуль WP. Урок 2 - Техническое задание" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Пройдися за шаблоном сайту та накидай свій список сторінок та функціоналу який необхідно буде реалізувати.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -64,7 +64,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/WP3wPFryma8" 
         title="Модуль WP. Урок 2 - Приводим меню к виду темы" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Реалізуй навігацію як це зроблено в темі.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -94,7 +94,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/ISFpDBwJ7RQ" 
         title="Модуль WP. Урок 2 - Шаблоны персональных страниц" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Ознайомся зі статтею, запропонованою у блоці «Корисні матеріали».</p>
                 <a href="https://developer.wordpress.org/themes/template-files-section/page-template-files/" target="_blank">template</a>
             </div>
         </div>
@@ -110,7 +110,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/rLkWhhpsVyI" 
         title="Модуль WP. Урок 2 - Подготовка темы к мультиязычности" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Пропиши налаштування для мультимовності сайту.</p>
                 <a href="https://poedit.net/download" target="_blank">poedit</a>
                 <a href="https://developer.wordpress.org/themes/functionality/internationalization/" target="_blank">internationalization</a>
             </div>

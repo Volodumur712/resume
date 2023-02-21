@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/AN4G25m1fIc" 
                 title="Boilerplate" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зміни структуру проекту за прикладом, як це показано у відео.</p>
                 <a href="https://html5boilerplate.com/" target="_blank">html5boilerplate</a>
             </div>
         </div>
@@ -32,7 +32,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/ew4npTIrfqI" 
                 title="Bootstrap" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Підключи Bootstrap стилі та скрипти собі в проект.
+</br>
+Перенеси хедер та футер у папку partials у файли header.php та footer.php відповідно та підключи їх в індексі.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -47,7 +49,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/UwWgA-VaxZ0" 
                 title="Login & Register form" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай поле password до структури твоєї бази даних.
+</br>
+Додай форми авторизації та реєстрації в проект і підключи необхідні стилі (можеш використовувати будь-які інші стилі та форми та створити свій унікальний дизайн. Головне, щоб зберігалася загальна функціональність).
+</br>
+Дотримуйся такої ж структури проекту, як це показано у відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -63,7 +69,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/xpi_Wn7SQQQ" 
                 title="Регистрация пользователя" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Підключи файл db.php користуючись відносними шляхами. Зміни всі підключення зовнішніх файлів у проекті, користуючись таким методом.
+</br>
+Додай логіку реєстрації користувача.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -78,7 +86,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/2TOwPKKUWxs" 
                 title="Авторизация пользователя" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Реалізуй можливість авторизуватися на сайті за допомогою механізму сесій.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -93,7 +101,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/YeH0yRcxvGw" 
                 title="Выход из аккаунта" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай файл logout.php та додай до нього логіку виходу з особистого кабінету.
+                </br>
+Додай перенаправлення на різні частини блогу після виконання кожної логіки на сторінках сайту.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

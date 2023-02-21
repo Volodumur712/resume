@@ -81,8 +81,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'home'): ?> <?php endif; ?> ><a href="/?p=home.php" class="active">Home</a></li>
         
 */ ?>
-      <!-- 
-      <li><a href="/?p=contact.php" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+      
+      <!-- <li><a href="/?p=contact.php" class="nav-link scrollto"><i class="bx bx-envelope"></i> 
+      <span>Contact</span></a></li> -->
 
     </ul>
   </nav>

@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3gc2pEWpOXA" 
                 title="Модуль PHP.  Урок 3 - Розділення адмін частини від користувацької" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай можливість назначати користувачам ролі.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3r3x6FZ_Ajs" 
                 title="Модуль PHP.  Урок 3 - Cookie" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай логіку створення “кукі” при авторизації користувача та логіку її обнулення коли користувач покидає особистий кабінет.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -47,7 +47,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/IbvhCQwO2F0" 
                 title="Модуль PHP.  Урок 3 - Створюємо таблицю для постів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай до бази даних таблицю для створення постів. Зверни увагу на поля та їх обмеження.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -63,8 +63,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/qR_qqXcu9Cw" 
                 title="Модуль PHP.  Урок 3 - Скачуємо стартову тему для адмінки" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Додай перевірку на створенні сесії чи кукі при завантаженні сторінки як це показано на відео.
+                </br>
+Завантаж шаблон для адміністративної панелі та додай його до себе в проект.</p>
+                <a href="https://startbootstrap.com/theme/sb-admin-2" target="_blank">admin2</a>
             </div>
         </div>
     </div>
@@ -78,7 +80,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/r1ZGU5mjNX8" 
                 title="Модуль PHP.  Урок 3 - Налаштування bootstrap теми" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Перенеси хедер та футер по окремих файлах по аналогії як ти це робив з головною сторінкою та виконай підключення цих частин.
+</br>
+Відредагуй структуру проекту як це показано на відео.
+</br>
+Підключи сайдбар.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -93,7 +99,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/bW74c-diZCQ" 
                 title="Модуль PHP.  Урок 3 - Робимо сторінки для постів та користувачів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Відредагуй сайдбар: видали непотрібні блоки, налаштуй лінки, зміни іконки.
+                </br>
+Додай таблицю відображення користувачів як це показано на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -109,7 +117,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/V2GgDD3KJ50" 
                 title="Модуль PHP.  Урок 3 - Виводимо користувачів в адмінці" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби динамічне відображення користувачів з твоєї бази даних в таблицю.
+                </br>
+Додай кнопки редагування та видалення користувача та стилізуй їх.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -124,7 +134,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/VTBk6_S9eVc" 
                 title="Модуль PHP.  Урок 3 - Розподілення логіки" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Розподіли логіку для виконання операцій з користувачами як це показано на відео.
+                </br>
+Додай можливість оновлювати дані користувачів. Додай форму, налаштуй логіку та редіректи.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -139,7 +151,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Ftf6Vx2cMrA" 
                 title="Модуль PHP.  Урок 3 - Редагування та додавання користувачів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Стилізуй форму для редагування інформації про користувачів.
+</br>
+Налаштуй функціонал для кнопки видалення користувача.
+</br>
+Зроби так щоб поточний користувач не відображався в списку користувачів. Або щоб його неможливо було видалити.
+</br>
+Додай функціонал для додавання користувачів. Встанови необхідні обмеження.
+</br>
+Додай аналогічний функціонал для таблиці постів. Повинна бути можливість переглядати всі пости, додавати, видаляти та редагувати.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

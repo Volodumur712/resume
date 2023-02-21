@@ -17,7 +17,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/-TOQMrI8CBU" 
                 title="Модуль Front-end. Урок 4 - Стилизация слайдера" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Знайди картинки для слайдера.
+                </br>
+Звертай свій слайдер на мій приклад.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -32,7 +34,10 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/OtG4PDboycM" 
                 title="Модуль Front-end. Урок 4 - Слайдер на чистом JavaScript" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Реалізуй слайдер на мій приклад.
+                </br>
+Зроби перемикання картинок при натисканні на мініатюру, тобто при натисканні на маленьку картинку 
+показуй її у великому вигляді.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

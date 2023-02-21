@@ -47,8 +47,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/QOj0TzRC4bQ" 
                 title="Модуль Front-end. Урок 3 - Адаптивная навигация и ДЗ" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зробити адаптив всієї сторінки з усіма блоками під розміри:
+</br>
+смартфони: від 375 пікселів / 480 / вище
+</br>
+планшети: від 768 пікселів та вище
+</br>
+нетбуки: 1024 пікселів
+</br>
+екран монітора комп’ютера: від 1280 пікселів та вище</p>
+                <a href="https://html5css.ru/howto/howto_js_topnav_responsive.php" target="_blank">Інструкція зі створення адаптивного меню</a>
             </div>
         </div>
     </div>

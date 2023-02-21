@@ -37,12 +37,10 @@
                       document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="bi bi-heart-fill" aria-hidden="true"></i>
                       by <a href="https://app.netlify.com/teams/citrusdolar/sites" target="_blank">Slutsenko Volodymyr</a></p>
                       </br>
-                    <p><a href="../login.php">Admin panel</a></p>
+                    
               <?php } ?>                  
       </div>
-      <div class="credits">
       
-      </div>
       <?php
       if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
       <?php } else { ?>
@@ -51,6 +49,9 @@
 	                <span class="icon icon-map-marker"></span><span class="text"><a href="https://www.google.com/maps/place/,
                   +76000/@48.9118647,24.6470887,12z/data=!3m1!4b1!4m5!3m4!1s0x4730c16c34b0381d:0xd6d32394e59e41c2!8m2!3d48.922633!4d24.711117" 
                   target="_blank&quot;">Ivano-Frankivsk, Prikarpattia, Ukraine</a></span>
+                  <div class="credits mt-3 pt-3">
+                    <p><a href="../login.php">Admin panel</a></p>
+                  </div>
             </div>
             <div class="col-md-4 p-2">
 	                <a href="tel:+380955750375"><span class="icon icon-phone"></span><span class="text">+38 095 575 0375</span></a>

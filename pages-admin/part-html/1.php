@@ -7,7 +7,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 </div>
 
 <h2 class="text-success text-center m-3"></h2>
-    
+
     <div class="text-center m-4 p-3 border border-primary rounded-pill border-5 bg-warning opacity-75">
         <p><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
         Модуль Front-end. Урок 1 - Що будемо робити 
@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/i_YKgDV6nsg" 
             title="Модуль Front-end. Урок 1 - Что будем делать" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зареєструйся на сайті <a href="https://www.figma.com/" target="_blank">figma</a></p>
                 <a href="https://drive.google.com/file/d/1LkYFBH3jXfqdBe_Rc7LkX1pQHNoYhIFk/view" target="_blank">A</a>
             </div>
         </div>
@@ -47,12 +47,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/t9s8qbLLGCc" 
                 title="Модуль Front-end. Урок 1 - HTML теги" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>HTML теги</p>
+                <a href="https://css.in.ua/html/tags" target="_blank"></a>
             </div>
         </div>
     </div>
-
 
     <div class="text-center m-4 p-3 border border-primary rounded-pill border-5 bg-warning opacity-75">
         <p><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
@@ -64,7 +63,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             title="Модуль Front-end. Урок 1 - HTML теги, добавляем картинку и форму" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="" target="_blank"></a>
+                <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/img" target="_blank">img</a>
+                <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input" target="_blank">Input</a>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             title="Модуль Front-end. Урок 1 - Подключаем стили" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="" target="_blank"></a>
+                <a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Selectors" target="_blank">CSS-селектори</a>
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             title="Модуль Front-end. Урок 1 - Блочные и строчные элементы" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="" target="_blank"></a>
+                <a href="https://developer.roman.grinyov.name/blog/13" target="_blank">mySize</a>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             title="Модуль Front-end. Урок 1 - CSS селектор класс" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="https://mailfit.com/blog/goryachie-klavishi-v-figma" target="_blank">A</a>
+                <a href="https://mailfit.com/blog/goryachie-klavishi-v-figma" target="_blank">Гарячі клавіші в Figma</a>
             </div>
         </div>
     </div>
@@ -125,7 +125,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             title="Модуль Front-end. Урок 1 - Позиционирование элементов флоатами" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Positioning" target="_blank">A</a>
+                <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Positioning" target="_blank">Позиціювання</a>
             </div>
         </div>
     </div>
@@ -139,8 +139,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/4TqKH0hkApE" 
             title="Модуль Front-end. Урок 1 - Выравниваем блоки в шапке" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зверстай шапку сайту як це зробив я в уроках.
+</br>
+Зверстай блок з навігацією на сайті.
+</br>
+Зверстай блок з великою картинкою, заголовком та кнопкою.</p>
+                
             </div>
         </div>
     </div>

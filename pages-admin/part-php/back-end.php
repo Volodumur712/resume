@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/wavJlwigJrg" 
                 title="1. Создаем чат: структура приложения" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Встанови та налаштуй XAMPP.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -32,7 +32,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/esuaRg8YMjM" 
                 title="Разница между фронтент и бекенд" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Налаштуй віртуальний хост first-php.test у себе на локальному сервері за прикладом, як ти це робив у попередніх мініуроках.
+                </br>
+                Повтори все, що зазначено в інструкції, тільки замість назви хоста «chat.local» тепер ти скрізь пиши «first-php.test».</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -47,7 +49,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/-0nSH8ReT1Q" 
                 title="Введение в PHP" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Створи в корені папки віртуального сервера файл index.php (якщо цього ще не зробив).
+</br>
+Додай до нього базову html-структуру і в тезі body створи блок з кодом php.
+</br>
+Створи змінну зі своїм ім’ям та за допомогою оператора echo виведи на екран повідомлення:
+“Привіт, Іване! Я твій php скрипт котрий був щойно успішно виконаний!”.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -63,7 +70,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/HwgOQLVJwJo" 
                 title="Введение в базы данных" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зайди в phpmyadmin та створи базу даних blog_php.
+                </br>
+Створи таблицю users з такими ж полями, як це показано в уроці.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -78,7 +87,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/A8mvPAS76pM" 
                 title=" Подключение БД" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Часті помилки</br>
+При створенні бази даних необхідно вказувати кодування utf8-general_ci.
+</br>
+При створенні таблиці забувають вказати авто інкремент. Чек бокс з підписом «A_I».
+</br>
+Під час створення таблиці вказувати назви потрібно латиницею, у нижньому регістрі букв.
+</br>
+Практичне завдання</br>
+Встанови підключення до бази даних, як це показано в уроці.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -93,7 +110,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/NO5u7LIdmRE" 
                 title=" Добавление записей в БД" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай кілька тестових записів у базу даних, користуючись phpmyadmin як це показано в уроці.
+</br>
+Напиши скрипт додавання запису до таблиці та додай 10 записів таким чином (можеш використовувати цикл).
+</br>
+Вибери всі записи з бази даних і виведи їх на екран.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -109,7 +130,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Jl7yF1wnA3w" 
                 title=" Разделение блоков сайта на блоки" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зміни структуру свого проекту, додавши в корінь твого проекту папки configs і partials.
+</br>
+Винеси код для підключення бази даних у файл config/db.php.
+</br>
+Винеси хедер та футер у файли header.php та footer.php відповідно.
+</br>
+Виконай підключення всіх файлів проекту в index.php, користуючись оператором include як це показано на відео.
+</br>
+Протестуй роботу твого веб-додатку.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -124,7 +153,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/7w0EvO1cccc" 
                 title=" Добавление записей в базу через форму. GET и POST запросы" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай форму до index.php, як це показано на відео.
+</br>
+Додай обробку форми до файлу add_user.php.
+</br>
+При надсиланні форми виконай збереження введених даних до бази.
+</br>
+Після надсилання форми зроби перенаправлення на головну сторінку, як це показано на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -139,7 +174,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/RkUdvGpSnww" 
                 title=" Вывод данных из БД" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Додай таблицю собі в проект, як це показано на відео.
+</br>
+Виведи дані про користувачів з бази у таблицю.
+</br>
+Після відправлення форми з даними користувача, він повинен з’являтися в кінці доданої таблиці.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -155,7 +194,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/EopZq10WzCE" 
                 title=" Удаление записей" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Підключи jQuery та свої власні скрипти до проекту.
+</br>
+Виведи кнопки видалення запису в кожному осередку таблиці.
+</br>
+Реалізуй функціонал видалення записів, як це показано на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -170,7 +213,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3_vC7GN-E7g" 
                 title=" Редактирование даных" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Створи файл edit_user.php, додай до нього форму та код для її обробки.
+                </br>
+Реалізуй функціонал оновлення інформації про користувача, як це показано на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

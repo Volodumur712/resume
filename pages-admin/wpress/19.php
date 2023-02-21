@@ -33,7 +33,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Tz_a9SblPFA" 
         title="2 . Углубленный Web: разработка сайта на WordPress" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Сделай клон темы.
+                </br>
+Сделай меню для сайта.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -48,7 +50,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/MaQsGNHPCDM" 
         title="3. Углубленный Web: разработка сайта на WordPress" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Сделай страницу для вывода постов блога.
+                </br>
+Добавь страницу блога в меню.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -63,7 +67,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3L27ic4DXFY" 
         title="4. Углубленный Web: разработка сайта на WordPress" frameborder="0" allow="accelerometer; 
         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Сделай страницу контактов по примеру</p>
                 <a href="https://i.pinimg.com/originals/f2/82/b1/f282b12b8bac43e930edf07cb8b2bd94.png" target="_blank">png</a>
             </div>
         </div>

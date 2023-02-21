@@ -18,7 +18,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			title="Программирование игры за 1 час. Урок №1" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="" target="_blank"></a>
+                <a href="https://drive.google.com/file/d/14AEVZ3MnYNpPYoI8yhl3uS5-7wHr_DqC/view" target="_blank">Архів</a>
             </div>
         </div>
     </div>
@@ -47,7 +47,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/w4IglrS-zNo" 
 			title="Программирование игры за 1 час. Урок №3" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Ознайомся з планом роботи..</br>
+Створи змінну (коробку) countShot для зберігання пострілів.</br>
+Виведи, чому дорівнює змінна countShot користуючись функцією alert().</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -63,7 +65,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/02KA1rZwAQI" 
 			title="Программирование игры за 1 час. Урок №4" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Обери елемент гри button з атрибутом id=”shot” та помісти його в змінну btnShot.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -78,7 +80,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/GkphQkUCF8E" 
 			title="Программирование игры за 1 час. Урок №5" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Створи функцію пострілу shot(). Ця функція повинна робити:
+</br>
+УЗбільшувати значення змінної countShot на 1.
+</br>
+Виводити модальне вікно з кількістю зроблених пострілів.
+</br>
+Створи функцію закінчення гри endgame(). Ця функція повинна робити:
+</br>
+Виводити модальне вікно з повідомленням “Кінець гри”.
+</br>
+Створи функцію розвороту револьверу. Повтори це, як це було зроблено на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -93,7 +105,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/x6-4dar8F2w" 
 			title="Программирование игры за 1 час. Урок №6" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби клік по кнопці. Повтори це, як це було зроблено на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -109,7 +121,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/Mf_9ouaFA14" 
 			title="Программирование игры за 1 час. Урок №7" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Створи змінну bulletPosition для зберігання позиції пулі.
+                </br>
+Пропиши умову попадання пулі. Повтори це, як це було зроблено на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -124,7 +138,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/DMhhU5Mdtis" 
 			title="Программирование игры за 1 час. Урок №8" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Створи функцію random(min, max) для отримання випадкового числа. Повтори це, як це було зроблено на відео.
+                </br>
+Запиши в змінну bulletPosition випадкове число від 1 до 6.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -155,7 +171,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/oSmkRbQHE-8" 
 			title="Программирование игры за 1 час. Урок №10" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Зроби клік по кнопці “Restart”, після чого повинна оновлюватись сторінка.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -185,7 +201,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 			<iframe width="475" height="357" src="https://www.youtube.com/embed/MqCPMIQPMTs" 
 			title="Программирование игры за 1 час. Урок №12" frameborder="0" allow="accelerometer; 
 			autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
+                <p>Повтори створення елементу, який відповідає за кров як це показано на відео.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

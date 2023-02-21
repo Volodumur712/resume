@@ -18,6 +18,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
                 title="1й урок: подготовка к обучению" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
+                <a href="https://drive.google.com/file/d/1E5povrNcJiYk1l9zFVCX5GVr0GS9UE9w/view" target="_blank">Гайд</a>
                 <a href="https://drive.google.com/file/d/1FWsuneyHkzYc3g3VRoqiVJY2E8-_PU8G/view" target="_blank">Архів</a>
             </div>
         </div>
@@ -32,8 +33,20 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/zo54gFFP_cw" 
                 title="2й урок: переменные, устройство браузера, работа с элементами страницы" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Вибери кнопку Start на сторінці і помісти її в змінну start. Виведи інформацію про нього в консоль браузера (console).
+                </br>
+Вибери блок життя (#lifes) на сторінці і помісти його в змінну lifes. Виведи інформацію про нього в консоль браузера.
+</br>
+Вибери блок очок (#score) на сторінці і помісти його в змінну score. Виведи інформацію про нього в консоль браузера.
+</br>
+Зміни колір кнопки Start на зелений за допомогою JavaScript.
+</br>
+Зміни ширину та висоту кнопки Start. Зроби ширину рівною 200px та висоту рівною 100px використовуючи JavaScript.
+</br>
+Зміни колір тексту очок за допомогою JavaScript.
+
+</p>
+                
             </div>
         </div>
     </div>
@@ -48,7 +61,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
                 title="3й урок: введение в события, работа с тегом audio" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="" target="_blank"></a>
+                <a href="https://docs.google.com/document/d/1ntOUllzK7b4R8IWfyD2j5G1GsKF9z3a0FKjKAx2VwwU/edit#heading=h.7bablqealwke" target="_blank">Події</a>
+                <a href="https://learn.javascript.ru/function-basics" target="_blank">Функції</a>
             </div>
         </div>
     </div>
@@ -63,8 +77,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/XPfiFrSv9Gg" 
                 title="4й урок: события, условия, работа с координатами" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>При натисканні на кнопку старт, потрібно ховати блок start і показувати блок game.
+                </br>
+Зроби вмикання мелодії при натисканні на блок #sound.
+</br>
+Якщо мелодія грає то міняємо картинку, на ту що показує звук sound_on.
+</br>
+Робота з координатами, зроби пересування гравця вгору та вниз.</p>
+                <a href="https://docs.google.com/document/d/1ntOUllzK7b4R8IWfyD2j5G1GsKF9z3a0FKjKAx2VwwU/edit#heading=h.7bablqealwke" target="_blank">умови</a>
+                <a href="https://learn.javascript.ru/logical-operators" target="_blank">логічні</a>
+                <a href="https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/Strings#%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0%D1%82%D0%B5%D0%BD%D0%B0%D1%86%D0%B8%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA" target="_blank">конкантенація</a>
+                <a href="https://javascript.ru/ui/offset" target="_blank">координати</a>
             </div>
         </div>
     </div>
@@ -78,8 +101,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/CBz9lcJ7r6g" 
                 title="5й урок: работа с таймерами" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зробити переміщення кулі в кінець ігрового поля, зліва направо. Після вильоту за межі поля повертати її на початок поля, на кшталт як я зробив приклад з ворогом.
+                </br>
+Зробити заборону на переміщення гравця за межі ігрового поля вгору та вниз. 
+</br>Щоб на кордонах він не смикався і не стрибав. Підказка – потрібно спочатку перевіряти позицію гравця, а потім виконувати рух)))</p>
+                <a href="https://learn.javascript.ru/settimeout-setinterval" target="_blank">таймери</a>
             </div>
         </div>
     </div>
@@ -93,8 +119,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3kHePCjl7K8" 
                 title="6й урок: работа с элементами, создание, отображение и удаление" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зробити створення кулі при натисканні на пробіл. Коли куля долітає до кінця поля, видаляти кулю і зупиняти таймер кулі.</p>
+                <a href="https://learn.javascript.ru/settimeout-setinterval#otmena-cherez-cleartimeout" target="_blank">clearInterval</a>
+                <a href="https://learn.javascript.ru/modifying-document#sozdanie-elementa" target="_blank">createElement</a>
+                <a href="https://puzzleweb.ru/javascript/element_appendchild.php" target="_blank">appendChild</a>
+                <a href="https://html-plus.in.ua/udalenie-html-elementov-v-javascript/" target="_blank">remove</a>
             </div>
         </div>
     </div>
@@ -109,8 +138,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/7qwGjvZf5cs" 
                 title="7й урок: цикл while, работа с координатами" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зробити попадання кулі по ворогу та знищення кулі та ворога.
+                </br>
+Зробити зменшення життів, якщо ворог пролетів мимо гравця та вийшов за межі поля.</p>
+                <a href="https://learn.javascript.ru/while-for" target="_blank">Цикл while</a>
+                <a href="https://learn.javascript.ru/alert-prompt-confirm" target="_blank">Функція Alert.</a>
+                <a href="https://learn.javascript.ru/logical-operators" target="_blank">логічні</a>
             </div>
         </div>
     </div>
@@ -124,8 +157,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/9dv85wdWzxI" 
                 title="8й урок: завершаем создание игры" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p></p>
-                <a href="" target="_blank"></a>
+                <p>Зробити появу ворога у випадковому місці екрана по вертикалі (top).
+            </br>
+                    Зробити появу випадкового скіна(типу) ворога.
+                    </br>
+                    Завершення
+                    </br>
+                    Відобрази блок end з результатами гри.
+                    </br>
+                    Зробити вибір гравця.</p>
+                <a href="https://learn.javascript.ru/searching-elements-dom" target="_blank">querySelectorAll</a>
+                <a href="https://learn.javascript.ru/array" target="_blank">Масиви</a>
             </div>
         </div>
     </div>

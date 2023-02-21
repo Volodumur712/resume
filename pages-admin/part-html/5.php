@@ -52,7 +52,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
                 title="Модуль Front-end. Урок 5 - Инструменты для работы" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p></p>
-                <a href="http://www.webmasters.by/articles/html-coding/2858-less.html" target="_blank"></a>
+                <a href="http://www.webmasters.by/articles/html-coding/2858-less.html" target="_blank">less</a>
                 <a href="https://gulpjs.com/docs/en/getting-started/quick-start/" target="_blank">gulpjs</a>
             </div>
         </div>

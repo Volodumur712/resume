@@ -17,7 +17,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Y4J_OPUJ_Qw" 
                 title="Модуль WP. Урок 1 - " frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Завантаж WordPress тут, і розгорни у себе локально.</p>
                 <a href="https://wordpress.org/download/" target="_blank">wordpress</a>
             </div>
         </div>
@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/2tCybDUHNFA" 
                 title="Модуль WP. Урок 1 - " frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Скачай тему для майбутнього сайту тут.</p>
                 <a href="//drive.google.com/file/d/1Kq-AdUoaN-5r-wauYj8X22C8NB9Jz_ku/view" target="_blank">A</a>
             </div>
         </div>
@@ -63,7 +63,19 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/nNmm2XKgTyU" 
                 title="Модуль WP. Урок 1 - Структура темы WP" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>header.php— глобальний файл, який відображає мета-дані сторінки в розділі та   «шапку» сайту.
+</br>    sidebar.php − цей файл відповідає за генерацію бічної колонки сайту, в якій відображатиметься вміст віджетів.
+</br>    footer.php – цей файл відповідає за виведення “підвалу” сайту та закриває HTML-теги. index.php — це шаблон головної сторінки сайту.
+</br>    single.php​ – відповідає за відображення окремих записів.
+</br>    page.php​ – формує статичні сторінки.
+</br>    archive.php​ – цей файл відповідає за виведення сторінки архіву записів.
+</br>    category.php​ – формує шаблон сторінки, яка виводить записи за рубриками.
+</br>    tag.php​ – шаблон сторінки, яка виводить список записів певного тега.
+</br>    comments.php − цей файл керує виведенням форми та списку коментарів.
+</br>    functions.php – дозволяє додавати код PHP і може впливати на основні елементи теми. Він додає функції та розширює можливості вашого сайту.
+</br>    style.css​ – основний файл CSS-стилів теми
+</br>    Практичне завдання
+</br>    Створити необхідні файли, про які йшлося в уроці</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>
@@ -78,7 +90,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/xNKWbCTh81Y" 
                 title="Модуль WP. Урок 1 - Быстрое создание темы" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Завантажити та розгорнути стартову тему</p>
                 <a href="https://underscores.me/" target="_blank">underscores</a>
             </div>
         </div>
@@ -93,7 +105,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/eNAABIhJBas" 
                 title="Модуль WP. Урок 1 - Структура темы и иерархия файлов" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Розберися в документації з ієрархії файлів</p>
                 <a href="https://developer.wordpress.org/themes/basics/template-hierarchy/" target="_blank">themes</a>
             </div>
         </div>
@@ -128,7 +140,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/jNRAhA4Ac64" 
                 title="Модуль WP. Урок 1 - Подключаем стили и скрипты" frameborder="0" allow="accelerometer; autoplay; 
                 clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Підключи стилі та скрипти теми, як я показав в уроці.</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

@@ -77,6 +77,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 
    //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/port_bd.php');
    //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/calculator.php');
+   //require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages-user/contact.php');
   }
   ?>
 

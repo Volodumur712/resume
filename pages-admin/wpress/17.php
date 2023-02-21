@@ -100,7 +100,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Q3gUXEx-XeQ" 
                 title="6. Додаємо кастомне поле до таксономії" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p></p>
+                <p>Для закріплення матеріалу додай кастомне поле таксономії в Properties сайту Real Estate</p>
                 <a href="" target="_blank"></a>
             </div>
         </div>

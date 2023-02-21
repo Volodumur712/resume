@@ -30,13 +30,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample2">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/qbxXIM1nlWA" 
-        title="2. Оптимізація проектів на wordpress" frameborder="0" allow="accelerometer; autoplay; 
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                title="2. Оптимізація проектів на wordpress" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p></p>
                 <a href="https://ru.wordpress.org/plugins/wp-migrate-db/" target="_blank">migrate</a>
                 <a href="https://tools.pingdom.com/" target="_blank">pingdom</a>
-                <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=ru" target="_blank">a</a>
-                <a href="https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ru" target="_blank">a</a>
+                <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=ru" target="_blank">lighthouse</a>
+                <a href="https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ru" target="_blank">wappalyzer</a>
             </div>
         </div>
     </div>

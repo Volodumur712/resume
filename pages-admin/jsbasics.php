@@ -17,7 +17,7 @@
 			</li>
 
 			<li class="text-center m-4 p-3 border border-primary rounded-pill border-2 bg-warning opacity-75">
-				<a href="/pages-admin/jsbas/zminni.php" target="_blank">5> <span>Змінні, як влаштований браузер, робота з елементами сторінки</span></a>
+				<a href="/pages-admin/jsbas/zminni.php" target="_blank">5> <span>Змінні, робота з елементами сторінки, гра Star wars</span></a>
 			</li>
 		</ul>	
 	</div>
