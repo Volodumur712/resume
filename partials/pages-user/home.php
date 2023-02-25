@@ -19,6 +19,7 @@
           <a href="https://twitter.com/Volodumur712" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100022273695820" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://instagram.com/volodumurs777?igshid=ZDdkNTZiNTM=" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Volodumur712?tab=repositories" target="_blank" class="git"> <span>My GIT</span></a>
         <?php } ?>
         
       </div>

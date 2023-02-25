@@ -31,9 +31,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
       if(isset($_GET['p'])) {
         
       switch ($_GET['p']) {
-        /*case 'home-adm.php':
+        case 'home-adm.php':
         $pagess = 'home-adm';
-        break;*/
+        break;
         case 'git.php':
         $pagess = 'git';
         break;
