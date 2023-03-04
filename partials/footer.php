@@ -11,9 +11,6 @@
       <div class="social-links">
       <?php
       if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
-          <a href="https://djinni.co/q/caf18ee77b/" target="_blank" class="djinni">Djin</a>
-          <a href="https://www.upwork.com/freelancers/~01c155c7d244964a9d/" target="_blank" class="upwork"><i class="bx bxl-upwork"></i></a>
-          <a href="https://dou.ua/users/volodimir-slutsenko-1/" target="_blank" class="dou">Dou</a>
           <a href="https://theprotocol.it/" target="_blank"> <span>pro</span></a>
           <a href="https://app.netlify.com/teams/citrusdolar/overview" target="_blank"> <span>Nlf</span></a>
         <?php } else { ?>
@@ -22,6 +19,18 @@
           <a href="https://twitter.com/Volodumur712" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100022273695820" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://instagram.com/volodumurs777?igshid=ZDdkNTZiNTM=" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        
+        
+          
+          <a href="https://djinni.co/q/caf18ee77b/" target="_blank" class="djinni">Djin</a>
+          <a href="https://www.upwork.com/freelancers/~01c155c7d244964a9d/" target="_blank" class="upwork"><i class="bx bxl-upwork"></i></a>
+          <a href="https://dou.ua/users/volodimir-slutsenko-1/" target="_blank" class="dou">Dou</a>
+          <a href="https://github.com/Volodumur712?tab=repositories" target="_blank" class="git"> <span>GIT</span></a>
+
+          <a href="https://www.fiverr.com/citrus712?public_mode=true" target="_blank" class="git"> <span>Fiverr</span></a>
+          <a href="https://www.guru.com/freelancers/citrus712" target="_blank" class="git"> <span>Guru</span></a>
+          <a href="https://freelancehunt.com/applicant/eY9lb.html" target="_blank" class="git"> <span>F-h</span></a>
+          <a href="https://www.freelancer.com/u/citrus1989" target="_blank" class="git"> <span>Free</span></a>
         <?php } ?>
         
         <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->

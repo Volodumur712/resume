@@ -12,7 +12,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
   <nav id="navbar" class="navbar nav-menu">
   <ul>
   <?php if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
-        <li>
+        <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'home-adm'): ?> <?php endif; ?> >
+          <a href="/?p=home-adm.php"  ><i class="bx bx-home"></i><span>Home</span></a>
         </li>
         <a href="/citrus/ind.php" target="_blank" class="active"><i class="bi bi-telegram"></i>Adminka</a>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'jsbasics'): ?> <?php endif; ?> >

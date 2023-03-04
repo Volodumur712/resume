@@ -25,6 +25,8 @@ session_start();
   <title>Volodymyr Slutsenko</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <meta name='freelancehunt' content='238a42b62c01bb9'>
+  
 
   <!-- Favicons -->
   <link href="/assets/img/favicon.png" rel="icon">

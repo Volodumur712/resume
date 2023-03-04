@@ -16,8 +16,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
                     window.alert('You not admin');
                     window.location = "../login.php";
                     </script>");
-                    /* header("Location: ../login.php"); */
+                    <?php 
+                    /* header("Location: ../login.php"); */ ?>
                     <?php }  
+
+
               require($_SERVER['DOCUMENT_ROOT'] . '/pages-admin/hedmenu.php');
                } else {
               ?>
@@ -31,9 +34,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
       if(isset($_GET['p'])) {
         
       switch ($_GET['p']) {
-        /*case 'home-adm.php':
+        case 'home-adm.php':
         $pagess = 'home-adm';
-        break;*/
+        break;
         case 'git.php':
         $pagess = 'git';
         break;
@@ -58,9 +61,32 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'add_fon_image.php':
         $pagess = 'add_fon_image';
         break;
-        case 'mylinks.php':
-        $pagess = 'mylinks';
+        
+        case 'my_link_courses.php':
+        $pagess = 'my_link_courses';
         break;
+        case 'my_link_projects.php':
+        $pagess = 'my_link_projects';
+        break;
+        case 'my_links.php':
+        $pagess = 'my_links';
+        break;
+        case 'my_link_html.php':
+        $pagess = 'my_link_html';
+        break;
+        case 'my_link_goit.php':
+        $pagess = 'my_link_goit';
+        break;
+        case 'my_link_js.php':
+        $pagess = 'my_link_js';
+        break;
+        case 'my_link_jq.php':
+        $pagess = 'my_link_jq';
+        break;
+        case 'my_link_time.php':
+        $pagess = 'my_link_time';
+        break;
+
         default:
         $pagess = 'htmcss';
         break;
