@@ -1,4 +1,5 @@
 <section>
+	<div class="m-5 p-5">
 	<h4 class="h2 m-2 p-1 text-danger">Міні курс по Git</h4>
 				<div class="d-flex">
 					<a href="https://github.com/Volodumur712?tab=repositories" target="_blank"> <span>Мій GIT</span></a>
@@ -41,6 +42,7 @@
 					</div>
 				</div> 
 				<!-- end class git-->
+	</div>
 </section>
 
 

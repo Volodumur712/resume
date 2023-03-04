@@ -26,6 +26,11 @@
           <a href="https://www.upwork.com/freelancers/~01c155c7d244964a9d/" target="_blank" class="upwork"><i class="bx bxl-upwork"></i></a>
           <a href="https://dou.ua/users/volodimir-slutsenko-1/" target="_blank" class="dou">Dou</a>
           <a href="https://github.com/Volodumur712?tab=repositories" target="_blank" class="git"> <span>GIT</span></a>
+
+          <a href="https://www.fiverr.com/citrus712?public_mode=true" target="_blank" class="git"> <span>Fiverr</span></a>
+          <a href="https://www.guru.com/freelancers/citrus712" target="_blank" class="git"> <span>Guru</span></a>
+          <a href="https://freelancehunt.com/applicant/eY9lb.html" target="_blank" class="git"> <span>F-h</span></a>
+          <a href="https://www.freelancer.com/u/citrus1989" target="_blank" class="git"> <span>Free</span></a>
         <?php } ?>
         
         <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
