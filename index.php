@@ -20,7 +20,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
                     /* header("Location: ../login.php"); */ ?>
                     <?php }  
 
-
               require($_SERVER['DOCUMENT_ROOT'] . '/pages-admin/hedmenu.php');
                } else {
               ?>
