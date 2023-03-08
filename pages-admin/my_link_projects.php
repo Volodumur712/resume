@@ -35,6 +35,21 @@
         <a href="https://codepen.io/jh3y/pen/jOxJWar" target="_blank">Незвичайна прокрутка галереї</a>
     </div>
     <div class="col m-3">
+        <a href="https://codepen.io/jkantner/pen/OJEoRwK" target="_blank">Animated Upload Modal</a>
+    </div>
+    <div class="col m-3">
+        <a href="https://shiny-button.vercel.app/" target="_blank">Дзеркальна кнопка</a>
+    </div>
+    <div class="col m-3">
+        <a href="" target="_blank"></a>
+    </div>
+    <div class="col m-3">
+        <a href="https://itnext.io/7-bad-code-smells-in-typescript-e1cb397723c6" target="_blank">поганими практиками в TypeScript</a>
+    </div>
+    <div class="col m-3">
+        <a href="" target="_blank"></a>
+    </div>
+    <div class="col m-3">
         <a href="" target="_blank"></a>
     </div>
     <div class="col m-3">

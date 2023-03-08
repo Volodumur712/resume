@@ -15,7 +15,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample1">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3gc2pEWpOXA" 
-                title="Модуль PHP.  Урок 3 - Розділення адмін частини від користувацької" frameborder="0" allow="accelerometer; 
+                title=" Розділення адмін частини від користувацької" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай можливість назначати користувачам ролі.</p>
                 <a href="" target="_blank"></a>
@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample2">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/3r3x6FZ_Ajs" 
-                title="Модуль PHP.  Урок 3 - Cookie" frameborder="0" allow="accelerometer; 
+                title=" Cookie" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай логіку створення “кукі” при авторизації користувача та логіку її обнулення коли користувач покидає особистий кабінет.</p>
                 <a href="" target="_blank"></a>
@@ -45,7 +45,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample3">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/IbvhCQwO2F0" 
-                title="Модуль PHP.  Урок 3 - Створюємо таблицю для постів" frameborder="0" allow="accelerometer; 
+                title=" Створюємо таблицю для постів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай до бази даних таблицю для створення постів. Зверни увагу на поля та їх обмеження.</p>
                 <a href="" target="_blank"></a>
@@ -61,7 +61,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample4">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/qR_qqXcu9Cw" 
-                title="Модуль PHP.  Урок 3 - Скачуємо стартову тему для адмінки" frameborder="0" allow="accelerometer; 
+                title=" Скачуємо стартову тему для адмінки" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай перевірку на створенні сесії чи кукі при завантаженні сторінки як це показано на відео.
                 </br>
@@ -78,7 +78,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample5">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/r1ZGU5mjNX8" 
-                title="Модуль PHP.  Урок 3 - Налаштування bootstrap теми" frameborder="0" allow="accelerometer; 
+                title=" Налаштування bootstrap теми" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Перенеси хедер та футер по окремих файлах по аналогії як ти це робив з головною сторінкою та виконай підключення цих частин.
 </br>
@@ -97,7 +97,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample6">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/bW74c-diZCQ" 
-                title="Модуль PHP.  Урок 3 - Робимо сторінки для постів та користувачів" frameborder="0" allow="accelerometer; 
+                title=" Робимо сторінки для постів та користувачів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Відредагуй сайдбар: видали непотрібні блоки, налаштуй лінки, зміни іконки.
                 </br>
@@ -115,7 +115,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample7">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/V2GgDD3KJ50" 
-                title="Модуль PHP.  Урок 3 - Виводимо користувачів в адмінці" frameborder="0" allow="accelerometer; 
+                title=" Виводимо користувачів в адмінці" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Зроби динамічне відображення користувачів з твоєї бази даних в таблицю.
                 </br>
@@ -132,7 +132,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample8">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/VTBk6_S9eVc" 
-                title="Модуль PHP.  Урок 3 - Розподілення логіки" frameborder="0" allow="accelerometer; 
+                title=" Розподілення логіки" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Розподіли логіку для виконання операцій з користувачами як це показано на відео.
                 </br>
@@ -149,7 +149,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample9">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/Ftf6Vx2cMrA" 
-                title="Модуль PHP.  Урок 3 - Редагування та додавання користувачів" frameborder="0" allow="accelerometer; 
+                title=" Редагування та додавання користувачів" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Стилізуй форму для редагування інформації про користувачів.
 </br>

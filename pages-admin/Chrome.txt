@@ -1,0 +1,12 @@
+
+
+📌 Grammarly
+📌 React Developer Tools
+📌 Redux DevTools
+📌 View Rendered Source
+📌 Color Picker
+📌 JSON Formatter
+📌 Loom
+📌 Redirect URL, Modify Headers & Mock APIs
+📌 Moesif Origin & CORS Changer
+📌 FireShot
