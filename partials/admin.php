@@ -34,8 +34,6 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="container-fluid d-flex align-items-center justify-content-between">
 
-    
-
     <nav id="navbar" class="navbar">
       <ul>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'home'): ?> <?php endif; ?> ><a href="/?p=home.php" class="active">Home</a></li>
@@ -72,7 +70,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header-adm.php');*/
     <div class="container">
       <div class="row justify-content-center">
         
-      <?php
+      <?php /*
        $pagess = 'home';
       if(isset($_GET['p'])) {
         
@@ -103,7 +101,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header-adm.php');*/
         break;
         }
       }
-      require($_SERVER['DOCUMENT_ROOT'] . "/partials/page-adm/$pagess.php"); 
+      require($_SERVER['DOCUMENT_ROOT'] . "/partials/page-adm/$pagess.php"); */
        // обовязково подвійні лапки
     ?>		
 

@@ -13,11 +13,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/config/bd.php');
   <ul>
   <?php if(isset($_SESSION['user_id']) && $_SESSION['user_id'] != null) { ?>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'home-adm'): ?> <?php endif; ?> >
-          <a href="/?p=home-adm.php"  ><i class="bx bx-home"></i><span>Home</span></a>
+          <a href="/?p=home-adm.php"><i class="bx bx-home"></i><span>Home</span></a>
         </li>
         <a href="/citrus/ind.php" target="_blank" class="active"><i class="bi bi-telegram"></i>Adminka</a>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'jsbasics'): ?> <?php endif; ?> >
-          <a href="/?p=jsbasics.php"  ><i class="bx bx-shield-quarter"></i><span>Js basics</span></a>
+          <a href="/?p=jsbasics.php"><i class="bx bx-shield-quarter"></i><span>Js basics</span></a>
         </li>
         <li <?php if(!isset($_GET['p']) || $_GET['p'] == 'htmcss'): ?> <?php endif; ?> >
           <a href="/?p=htmcss.php"><i class="bx bx-file-blank"></i> <span>HTML</span></a>

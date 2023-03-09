@@ -36,6 +36,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
         case 'home-adm.php':
         $pagess = 'home-adm';
         break;
+        case 'add_my_link.php':
+        $pagess = 'add_my_link';
+        break;
         case 'git.php':
         $pagess = 'git';
         break;

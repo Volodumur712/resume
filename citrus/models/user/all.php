@@ -20,29 +20,28 @@
                         <th>Option</th>
                     </tr>
                 </thead>              
-                                    <tbody>
-                                        <?php
-                                            $sql = "SELECT * FROM users WHERE id!=" . $userID;  // не відображає адміна
-                                            $result = $conn->query($sql);
-                                            while($row = $result->fetch_assoc()) {
-                                                // цикл який шукає кожну наступну строчку і вставляє у змінну row
-                                        ?>    
-                                        <tr>
-                                            <td><?php echo $row['id']; ?></td>
-                                            <td><?php echo $row['u_name']; ?></td>
-                                            <td><?php echo $row['u_email']; ?></td>
-                                            <td><?php echo $row['role']; ?></td>
-                                            <td>
-                                                
-                                                <a href="?page=edit&id=<?php echo $row['id']; ?>" class="btn btn-warning"><i class="fas fa-pen"></i>Edit</a>
-                                                <a href="/citrus/models/user/delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Del</a>
-                                            </td>
-                                        </tr>
+                    <tbody>
+                        <?php
+                            $sql = "SELECT * FROM users WHERE id!=" . $userID;  // не відображає адміна
+                               $result = $conn->query($sql);
+                            while($row = $result->fetch_assoc()) {
+                                // цикл який шукає кожну наступну строчку і вставляє у змінну row
+                        ?>    
+                        <tr>
+                            <td><?php echo $row['id']; ?></td>
+                            <td><?php echo $row['u_name']; ?></td>
+                            <td><?php echo $row['u_email']; ?></td>
+                            <td><?php echo $row['role']; ?></td>
+                            <td>             
+                                <a href="?page=edit&id=<?php echo $row['id']; ?>" class="btn btn-warning"><i class="fas fa-pen"></i>Edit</a>
+                                <a href="/citrus/models/user/delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Del</a>
+                            </td>
+                        </tr>
 
-                                        <?php
-                                        }
-                                        ?>
-                                    </tbody>
+                           <?php
+                           }
+                        ?>
+                    </tbody>
             </table>
         </div>
     </div>

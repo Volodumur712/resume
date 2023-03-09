@@ -4,7 +4,8 @@
             <a href="https://itvdn.com/ua" target="_blank">itvdn</a>
         </div>
         <div class="col">
-            <a href="https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0" target="_blank">harvard</a>
+            <a href="https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0"
+             target="_blank">harvard</a>
         </div>
         <div class="col">
             <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50G+Games/home" target="_blank">learning</a>

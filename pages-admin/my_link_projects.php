@@ -1,5 +1,13 @@
 <section>
 <div class="text-center m-3">
+
+<!-- INSERT INTO `links` (`id`, `titl`, `hrefs`, `descript`) 
+VALUES (NULL, '3D die', 'https://codepen.io/HunorMarton/pen/mdERrLy', 'Interactive 3D die');
+INSERT INTO `links` (`id`, `titl`, `hrefs`, `descript`) VALUES (NULL, 'Вигадлива анімація шляху ', 
+'https://codepen.io/team/keyframers/pen/poebgbg', 'під час прокручування сторінки, реалізована за допомогою SVG,
+ GSAP і ScrollTrigger.js.');
+ -->
+
 	<div class="col m-3">
         <a href="https://codepen.io/HunorMarton/pen/mdERrLy" target="_blank">Interactive 3D die</a>
     </div>
@@ -44,7 +52,8 @@
         <a href="" target="_blank"></a>
     </div>
     <div class="col m-3">
-        <a href="https://itnext.io/7-bad-code-smells-in-typescript-e1cb397723c6" target="_blank">поганими практиками в TypeScript</a>
+        <a href="https://itnext.io/7-bad-code-smells-in-typescript-e1cb397723c6"
+         target="_blank">поганими практиками в TypeScript</a>
     </div>
     <div class="col m-3">
         <a href="" target="_blank"></a>
