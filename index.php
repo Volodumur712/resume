@@ -20,7 +20,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
                     /* header("Location: ../login.php"); */ ?>
                     <?php }  
 
-
               require($_SERVER['DOCUMENT_ROOT'] . '/pages-admin/hedmenu.php');
                } else {
               ?>
@@ -36,6 +35,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
       switch ($_GET['p']) {
         case 'home-adm.php':
         $pagess = 'home-adm';
+        break;
+        case 'add_my_link.php':
+        $pagess = 'add_my_link';
+        break;
+        case 'ad_edit_my_link.php':
+        $pagess = 'ad_edit_my_link';
         break;
         case 'git.php':
         $pagess = 'git';

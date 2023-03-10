@@ -15,7 +15,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample1">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/1d-fwbEZ0e4" 
-                title="Модуль PHP.  Урок 4 - Виносимо корисні функції в інше місце" frameborder="0" allow="accelerometer; 
+                title=" Виносимо корисні функції в інше місце" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Зміни структуру коду як це показано на початку відео, додай файл helpers.php.
                 </br>
@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample2">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/pZ3Yc849O2Q" 
-                title="Модуль PHP.  Урок 4 - Що таке ajax?" frameborder="0" allow="accelerometer; 
+                title=" Що таке ajax?" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай та стилізуй форму для додавання твіту.
 </br>
@@ -51,7 +51,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample3">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/VwKjm4SvUnM" 
-                title="Модуль PHP.  Урок 4 - Робимо AJAX запити на сервер" frameborder="0" allow="accelerometer; 
+                title=" Робимо AJAX запити на сервер" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Підключи jQuery до свого проекту.
                 </br>
@@ -69,7 +69,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample4">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/gWtOtCyPnBE" 
-                title="Модуль PHP.  Урок 4 - Ajax оновлення даних на сторінці" frameborder="0" allow="accelerometer; 
+                title=" Ajax оновлення даних на сторінці" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай логіку додавання твіту в add_twit.php.
 </br>
@@ -88,7 +88,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample5">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/5SHxuG8i3Bw" 
-                title="Модуль PHP.  Урок 4 - Завантаження та збереження файлів на сервері" frameborder="0" allow="accelerometer; 
+                title=" Завантаження та збереження файлів на сервері" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай можливість додавання картинки на сервер за допомогою ajax.</p>
                 <a href="" target="_blank"></a>
@@ -103,7 +103,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
         <div class="collapse text-center" id="collapseExample6">
             <div class="card card-body align-items-center">
             <iframe width="475" height="357" src="https://www.youtube.com/embed/m3sszAzy0c0" 
-                title="Модуль PHP.  Урок 4 - Збереження файлу в базі даних" frameborder="0" allow="accelerometer; 
+                title=" Збереження файлу в базі даних" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Додай нове поле image до таблиці постів.
 </br>
