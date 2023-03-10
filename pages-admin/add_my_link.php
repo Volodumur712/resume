@@ -6,9 +6,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 
 <?php 
     if(!empty($_POST)) {
-        $titl = mysqli_real_escape_string($conn, $_POST['titl']); 
+       /* $titl = mysqli_real_escape_string($conn, $_POST['titl']); 
         $hrefs = mysqli_real_escape_string($conn, $_POST['hrefs']); 
-        $descript = mysqli_real_escape_string($conn, $_POST['descript']);
+        $descript = mysqli_real_escape_string($conn, $_POST['descript']);*/
+
+        $titl = ($_POST['titl']); 
+        $hrefs = ($_POST['hrefs']); 
+        $descript = ($_POST['descript']);
 
         $sql = "INSERT INTO `links` (`titl`, `hrefs`, `descript`) 
         VALUES ('$titl', '$hrefs', '$descript');";

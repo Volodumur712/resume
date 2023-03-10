@@ -9,14 +9,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
     <h4 class="text-success text-center m-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
      aria-expanded="false" aria-controls="collapseExample">Links</h4>
     <ul class="collapse list-group list-group-horizontal" id="collapseExample4">
-    <!-- target="_blank" -->
+    
         <li class="list-group-item flex-fill">
             <a href="/?p=my_link_courses.php" target="_blank"><i class='bx bx-code-alt'></i><span>Courses</span></a>
         </li>
         
-        <li class="list-group-item flex-fill">
+        <!-- <li class="list-group-item flex-fill">
             <a href="/?p=my_link_projects.php" target="_blank"><i class='bx bx-code-alt'></i><span>Projects</span></a>
-        </li>
+        </li> -->
 
         <li class="list-group-item flex-fill">
             <a href="/?p=my_link_html.php" target="_blank"><i class='bx bx-code-alt'></i><span>HTML CSS</span></a>
@@ -70,9 +70,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
             <tr>
             <th scope="row"><?php echo $row['id']; ?></th>
             <td><?php echo $row['titl']; ?></td>
-            <td><?php echo $row['descript']; ?></td>
             <td>
-                <a href="<?php echo $row['hrefs']; ?>" target="_blank" class="btn btn-warning"><i class="fas fa-pen"></i>тут</a>
+            <a href="?p=ad_edit_my_link.php&id=<?php echo $row['id']; ?>"><i class="bx bx-paint"></i>Edit</a>
+                <?php echo $row['descript']; ?>
+            </td>
+            <td>
+                <a href="<?php echo $row['hrefs']; ?>" target="_blank" class="btn btn-success"><i class="bx bx-check-shield"></i>   тут</a>
             </td>
             </tr>
             <?php
