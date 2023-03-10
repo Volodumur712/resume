@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
     <h4 class="text-success text-center m-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
      aria-expanded="false" aria-controls="collapseExample">Links</h4>
-    <ul class="collapse list-group list-group-horizontal" id="collapseExample4">
+    <ul class="collapse list-group" id="collapseExample4">
     
         <li class="list-group-item flex-fill">
             <a href="/?p=my_link_courses.php" target="_blank"><i class='bx bx-code-alt'></i><span>Courses</span></a>
