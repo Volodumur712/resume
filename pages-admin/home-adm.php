@@ -14,9 +14,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
             <a href="/?p=my_link_courses.php" target="_blank"><i class='bx bx-code-alt'></i><span>Courses</span></a>
         </li>
         
-        <!-- <li class="list-group-item flex-fill">
-            <a href="/?p=my_link_projects.php" target="_blank"><i class='bx bx-code-alt'></i><span>Projects</span></a>
-        </li> -->
+        <li class="list-group-item flex-fill">
+            <a href="/?p=my_link_css_js.php" target="_blank"><i class='bx bx-code-alt'></i><span>Цікаве</span></a>
+        </li>
 
         <li class="list-group-item flex-fill">
             <a href="/?p=my_link_html.php" target="_blank"><i class='bx bx-code-alt'></i><span>HTML CSS</span></a>

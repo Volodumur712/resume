@@ -7,16 +7,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/partials/link.php');
 if(!empty($_POST)) {
     $imja = $_POST['login'];
     //$poshta = $_POST['email'];
-
     $parol = $_POST['password'];
-    
     $sql = "SELECT * FROM users WHERE u_name = '$imja'";
     // . '" AND password="' . $_POST['password'] . '";
     // var_dump($sql);
     //$result = $conn->query($sql);
     $result = mysqli_query($conn, $sql);
     //var_dump($result);
-
     $user = $result->fetch_assoc();
     var_dump($user);
     // перевірка чи вибрався
@@ -27,12 +24,9 @@ if(!empty($_POST)) {
     } else {
         $_SESSION["user_id"] = null;
     }
-    
-
     if (password_verify($parol, $user['u_pass'])) {
         setcookie("user", $user['id'], time()+3600*24, "/");
         header("Location: /");
-        
     } else {
      echo '<h1>Invalid login or password.</h1>
      </br>

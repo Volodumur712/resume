@@ -17,17 +17,18 @@
             <td>Learn JavaScript in 7 minutes</td>
             <td><a href="https://www.youtube.com/watch?v=LFa9fnQGb3g" target="_blank"></a></td>
             </tr>
+            
             <tr>
             <th></th>
             <td></td>
             <td></td>
-            <td><a href="https://" target="_blank"></a></td>
+            <td><a href="" target="_blank"></a></td>
             </tr>
             <tr>
             <th></th>
             <td></td>
             <td></td>
-            <td><a href="https://" target="_blank"></a></td>
+            <td><a href="" target="_blank"></a></td>
             </tr>
         </tbody>
         </table>
